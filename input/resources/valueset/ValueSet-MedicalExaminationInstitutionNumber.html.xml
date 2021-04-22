@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-MedicalExaminationInstitutionNumber.html"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2021-03-22T11:23:17.820+00:00"/>
+        <source value="#ZfRrDpGfcmRVwylt"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationInstitutionNumber.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.102"/>
+    </identifier>
+    <name value="MedicalExaminationInstitutionNumber"/>
+    <title value="特定健診機関番号・特定保健指導機関番号"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される特定健診機関番号・特定保健指導機関番号が含まれます。"/>
+</ValueSet>

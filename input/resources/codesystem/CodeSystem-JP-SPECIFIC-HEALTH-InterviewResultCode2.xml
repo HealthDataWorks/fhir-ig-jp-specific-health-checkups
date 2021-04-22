@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:26.478+00:00"/>
+        <source value="#lPtK9J4OXPv8fhND"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+    <name value="InterviewResultCode2"/>
+    <title value="問診結果コード2"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+    <content value="complete"/>
+</CodeSystem>

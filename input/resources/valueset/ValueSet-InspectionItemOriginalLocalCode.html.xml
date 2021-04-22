@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-InspectionItemOriginalLocalCode.html"/>
+    <meta>
+        <versionId value="6"/>
+        <lastUpdated value="2021-03-22T12:53:31.067+00:00"/>
+        <source value="#fbqs5lkePZe1eNU9"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InspectionItemOriginalLocalCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1205.[枝番号]"/>
+    </identifier>
+    <name value="InspectionItemOriginalLocalCode"/>
+    <title value="検査項目独自ローカルコード"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される検査項目独自ローカルコードが含まれます。&#xA;JLAC10準拠でない独自のローカルコードを検査項目等に 使用する場合のコード。&#xA;使用方法は、別途サイト上の「厚労省手引書附属資料7に収載されていない検査項目コードの取扱い指針」を必ず参照しそれに準拠すること。"/>
+</ValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:26.082+00:00"/>
+        <source value="#dL3MQhBkG62JXIJT"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode"/>
+    <name value="ChewingCode"/>
+    <title value="咀嚼コード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている咀嚼コードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ChewingCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="何でも"/>
+        <definition value="何でも"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="かみにくい"/>
+        <definition value="かみにくい"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="ほとんどかめない"/>
+        <definition value="ほとんどかめない"/>
+    </concept>
+</CodeSystem>

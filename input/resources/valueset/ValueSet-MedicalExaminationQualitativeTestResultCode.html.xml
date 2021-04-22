@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-MedicalExaminationQualitativeTestResultCode.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:17.841+00:00"/>
+        <source value="#yx3zPTu1XgCS35Bk"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationQualitativeTestResultCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.2102"/>
+    </identifier>
+    <name value="MedicalExaminationQualitativeTestResultCode"/>
+    <title value="健診定性検査結果コード"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される健診定性検査結果コードが含まれます。"/>
+</ValueSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-CounterBurdenCollectionCode.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:15.359+00:00"/>
+        <source value="#KbveyZMIsLVSCZHO"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CounterBurdenCollectionCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1114"/>
+    </identifier>
+    <name value="CounterBurdenCollectionCode"/>
+    <title value="厚労省付属資料7別表14(窓口負担徴収コード)"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表14(窓口負担徴収コード)が含まれます。"/>
+</ValueSet>

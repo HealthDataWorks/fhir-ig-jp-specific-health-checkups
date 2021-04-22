@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:26.082+00:00"/>
+        <source value="#NQ7pxOsofwj60o44"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+    <name value="ErrorReturnReasonCode"/>
+    <title value="厚労省付属資料7別表10(過誤返戻理由コード)"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表10(過誤返戻理由コード)です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="01"/>
+        <display value="被保険者証の記号・番号の誤り"/>
+        <definition value="被保険者証の記号・番号の誤り"/>
+    </concept>
+    <concept>
+        <code value="02"/>
+        <display value="受診券・利用券の整理番号の誤り"/>
+        <definition value="受診券・利用券の整理番号の誤り"/>
+    </concept>
+    <concept>
+        <code value="03"/>
+        <display value="受診者・利用者氏名の誤り"/>
+        <definition value="受診者・利用者氏名の誤り"/>
+    </concept>
+    <concept>
+        <code value="04"/>
+        <display value="該当者なし"/>
+        <definition value="該当者なし"/>
+    </concept>
+    <concept>
+        <code value="05"/>
+        <display value="保険者番号と記号の不一致"/>
+        <definition value="保険者番号と記号の不一致"/>
+    </concept>
+    <concept>
+        <code value="06"/>
+        <display value="資格喪失後の受診"/>
+        <definition value="資格喪失後の受診"/>
+    </concept>
+    <concept>
+        <code value="07"/>
+        <display value="重複請求"/>
+        <definition value="重複請求"/>
+    </concept>
+    <concept>
+        <code value="08"/>
+        <display value="健診・指導機関からの取下げ依頼による"/>
+        <definition value="健診・指導機関からの取下げ依頼による"/>
+    </concept>
+    <concept>
+        <code value="09"/>
+        <display value="その他"/>
+        <definition value="その他"/>
+    </concept>
+</CodeSystem>

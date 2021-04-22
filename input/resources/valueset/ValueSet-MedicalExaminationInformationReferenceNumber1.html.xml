@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-MedicalExaminationInformationReferenceNumber1.html"/>
+    <meta>
+        <versionId value="7"/>
+        <lastUpdated value="2021-04-21T02:04:17.010+00:00"/>
+        <source value="#YBQ0ZGt9Sox5kyJF"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationInformationReferenceNumber1.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.202"/>
+    </identifier>
+    <name value="MedicalExaminationInformationReferenceNumber1"/>
+    <title value="健診情報整理番号1"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号1が含まれます。"/>
+</ValueSet>

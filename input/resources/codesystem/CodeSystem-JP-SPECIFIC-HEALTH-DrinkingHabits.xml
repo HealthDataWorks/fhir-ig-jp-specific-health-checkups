@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:26.082+00:00"/>
+        <source value="#NyC64jgYWDkbdsNe"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+    <name value="DrinkingHabits"/>
+    <title value="飲酒習慣"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている飲酒習慣です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="毎日"/>
+        <definition value="毎日"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="時々"/>
+        <definition value="時々"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="ほとんど飲まない"/>
+        <definition value="ほとんど飲まない"/>
+    </concept>
+</CodeSystem>

@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="jp-specific-health-checkups"/>
+    <meta>
+        <versionId value="6"/>
+        <lastUpdated value="2021-04-28T03:56:28.355+00:00"/>
+        <source value="#dzHPHFDRu1mKdcNx"/>
+    </meta>
+    <url value="https://healthdataworks.net/hl7-fhir/ImplementationGuide/jp-specific-health-checkups"/>
+    <version value="0.8.0"/>
+    <name value="JP_specific_health_checkups"/>
+    <title value="特定健診"/>
+    <status value="draft"/>
+    <date value="2021-04-28"/>
+    <publisher value="HealthDataWorks"/>
+    <contact>
+        <name value="小山内 尚、西山 喜樹、能崎 克行"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://healthdataworks.net/"/>
+        </telecom>
+    </contact>
+    <description value="この実装ガイドは、HL7 FHIR のリソースに特定健診の情報を設定して利用するためのドキュメントです。  "/>
+    <packageId value="jp-specific-health-checkups"/>
+    <fhirVersion value="4.0.1"/>
+    <definition>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsurerNumber.html"/>
+                <display value="保険者番号"/>
+            </reference>
+            <name value="保険者番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される保険者番号が含まれます。&#xA;8 桁に満たない場合は先頭ゼロをつけて８桁化して使用します。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInstitutionNumber.html"/>
+                <display value="特定健診機関番号・特定保健指導機関番号"/>
+            </reference>
+            <name value="特定健診機関番号・特定保健指導機関番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される特定健診機関番号・特定保健指導機関番号が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-AgencyNumber.html"/>
+                <display value="代行機関番号"/>
+            </reference>
+            <name value="代行機関番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される代行機関番号が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CountryOrPaymentFundClassification.html"/>
+                <display value="国・支払基金区分"/>
+            </reference>
+            <name value="国・支払基金区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される国・支払基金区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-LocalPublicOrganization.html"/>
+                <display value="地方公共団体コード"/>
+            </reference>
+            <name value="地方公共団体コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される地方公共団体コードが含まれます。&#xA;財団法人地方自治情報センターが公開する自治体コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInformationReferenceNumber1.html"/>
+                <display value="健診情報整理番号１"/>
+            </reference>
+            <name value="健診情報整理番号１"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号1が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInformationReferenceNumber2.html"/>
+                <display value="健診情報整理番号２"/>
+            </reference>
+            <name value="健診情報整理番号２"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号2が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInformationReferenceNumber3.html"/>
+                <display value="健診情報整理番号３"/>
+            </reference>
+            <name value="健診情報整理番号３"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号3が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInformationReferenceNumber4.html"/>
+                <display value="健診情報整理番号４"/>
+            </reference>
+            <name value="健診情報整理番号４"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号4が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationInformationReferenceNumber5.html"/>
+                <display value="健診情報整理番号５"/>
+            </reference>
+            <name value="健診情報整理番号５"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号5が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredSymbol.html"/>
+                <display value="被保険者記号"/>
+            </reference>
+            <name value="被保険者記号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者記号が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredNumber.html"/>
+                <display value="被保険者番号"/>
+            </reference>
+            <name value="被保険者番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者番号が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-QualificationClassification.html"/>
+                <display value="資格区分"/>
+            </reference>
+            <name value="資格区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される資格区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-TicketType.html"/>
+                <display value="券面種別"/>
+            </reference>
+            <name value="券面種別"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される券面種別が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ReferenceNumberOfConsultationTicket.html"/>
+                <display value="受診券の整理番号"/>
+            </reference>
+            <name value="受診券の整理番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される受診券の整理番号が含まれます。&#xA;oidのxxxxxxxxx は受診券を発行した８桁の保険者番号の先頭に１を 付与した９桁番号です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-TicketReferenceNumber.html"/>
+                <display value="利用券整理番号"/>
+            </reference>
+            <name value="利用券整理番号"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される利用券整理番号が含まれます。&#xA;oidのxxxxxxxxx は利用券を発行した８桁の保険者番号の先頭に１を付与した９桁番号です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredCardBranchNumber.html"/>
+                <display value="被保険者証等枝番"/>
+            </reference>
+            <name value="被保険者証等枝番"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者証等枝番が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsurerNumberDownload.html"/>
+                <display value="保険者番号(ダウンロード保険者)"/>
+            </reference>
+            <name value="保険者番号(ダウンロード保険者)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される保険者番号(ダウンロード保険者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredNumberDownload.html"/>
+                <display value="被保険者番号(ダウンロード保険者)"/>
+            </reference>
+            <name value="被保険者番号(ダウンロード保険者)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者番号(ダウンロード保険者)が含まれます。&#xA;8桁に満たない場合は先頭ゼロをつけて8桁化して使用します。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredSymbolDownload.html"/>
+                <display value="被保険者記号(ダウンロード保険者)"/>
+            </reference>
+            <name value="被保険者記号(ダウンロード保険者)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者記号(ダウンロード保険者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InsuredCardBranchNumberDownload.html"/>
+                <display value="被保険者証等枝番(ダウンロード保険者)"/>
+            </reference>
+            <name value="被保険者証等枝番(ダウンロード保険者)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者証等枝番(ダウンロード保険者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-UserIdUniqueToEachParty.html"/>
+                <display value="当事者間固有の利用者ID"/>
+            </reference>
+            <name value="当事者間固有の利用者ID"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される当事者間固有の利用者IDが含まれます。&#xA;当事者間で合意して記述する利用者識別番号です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ReportCategory.html"/>
+                <display value="報告区分"/>
+            </reference>
+            <name value="報告区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される報告区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ProgramTypeCode.html"/>
+                <display value="プログラム種別コード"/>
+            </reference>
+            <name value="プログラム種別コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるプログラム種別コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SpecificHealthGuidanceItemCode.html"/>
+                <display value="特定保健指導項目コード表"/>
+            </reference>
+            <name value="特定保健指導項目コード表"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される特定保健指導項目コード表が含まれます。&#xA;XML保健指導コード表の項目コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InspectionMethods.html"/>
+                <display value="検査方法10桁コード"/>
+            </reference>
+            <name value="検査方法10桁コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される検査方法10桁コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MetabolicSyndromeJudgment.html"/>
+                <display value="メタボリックシンドローム判定"/>
+            </reference>
+            <name value="メタボリックシンドローム判定"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるメタボリックシンドローム判定が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CDASectionCode.html"/>
+                <display value="CDA セクションコード"/>
+            </reference>
+            <name value="CDA セクションコード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるCDA セクションコードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-TypeCode.html"/>
+                <display value="厚労省付属資料７別表１（種別コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１（種別コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表1(種別コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ImplementationCategoryCode.html"/>
+                <display value="厚労省付属資料７別表３（実施区分コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表３（実施区分コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表3(実施区分コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-GenderClassificationCode.html"/>
+                <display value="厚労省付属資料７別表４（男女区分コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表４（男女区分コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表4(男女区分コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CounterBurdenCode.html"/>
+                <display value="厚労省付属資料７別表６（窓口負担コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表６（窓口負担コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表6(窓口負担コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-BillingClassificationCode.html"/>
+                <display value="厚労省付属資料７別表７（請求区分コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表７（請求区分コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表7(請求区分コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-DetailedMedicalExaminationItemCode.html"/>
+                <display value="厚労省付属資料７別表８（詳細な健診項目コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表８（詳細な健診項目コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表8(詳細な健診項目コード)"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ReturnReasonCode.html"/>
+                <display value="厚労省付属資料７別表９（返戻理由コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表９（返戻理由コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表9(返戻理由コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ErrorReturnReasonCode.html"/>
+                <display value="厚労省付属資料７別表１０（過誤返戻理由コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１０（過誤返戻理由コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表10(過誤返戻理由コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidanceImplementationTimeCode.html"/>
+                <display value="厚労省付属資料７別表１１（保健指導実施時点コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１１（保健指導実施時点コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表11(保健指導実施時点コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidanceClassificationCode.html"/>
+                <display value="厚労省付属資料７別表１２（保健指導区分コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１２（保健指導区分コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表12(保健指導区分コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SupportFormCode.html"/>
+                <display value="厚労省付属資料７別表１３（支援形態コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１３（支援形態コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表13(支援形態コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CounterBurdenCollectionCode.html"/>
+                <display value="厚労省付属資料７別表１４（窓口負担徴収コード）"/>
+            </reference>
+            <name value="厚労省付属資料７別表１４（窓口負担徴収コード）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表14(窓口負担徴収コード)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InspectionItemOriginalLocalCode.html"/>
+                <display value="検査項目独自ローカルコード"/>
+            </reference>
+            <name value="検査項目独自ローカルコード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される検査項目独自ローカルコードが含まれます。&#xA;JLAC10準拠でない独自のローカルコードを検査項目等に 使用する場合のコード。&#xA;使用方法は、別途サイト上の「厚労省手引書附属資料7に収載されていない検査項目コードの取扱い指針」を必ず参照しそれに準拠すること。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ReconfirmerCode.html"/>
+                <display value="再確認者コード"/>
+            </reference>
+            <name value="再確認者コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される再確認者コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationFindingsInterpretationCode.html"/>
+                <display value="健診検査所見解釈コード"/>
+            </reference>
+            <name value="健診検査所見解釈コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診検査所見解釈コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InterviewResultCode.html"/>
+                <display value="問診結果コード"/>
+            </reference>
+            <name value="問診結果コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される問診結果コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MealSpeedCode.html"/>
+                <display value="食事の速さコード"/>
+            </reference>
+            <name value="食事の速さコード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される食事の速さコードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-DrinkingHabits.html"/>
+                <display value="飲酒習慣"/>
+            </reference>
+            <name value="飲酒習慣"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される飲酒習慣が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-AlcoholConsumptionClassification.html"/>
+                <display value="飲酒量区分"/>
+            </reference>
+            <name value="飲酒量区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される飲酒量区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-LifestyleImprovementIntentionClassification.html"/>
+                <display value="生活習慣改善意志区分"/>
+            </reference>
+            <name value="生活習慣改善意志区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活習慣の改善意思区分(行動変容ステージ区分)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InterviewResultCode2.html"/>
+                <display value="問診結果コード2"/>
+            </reference>
+            <name value="問診結果コード2"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される問診結果コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ChewingCode.html"/>
+                <display value="咀嚼コード"/>
+            </reference>
+            <name value="咀嚼コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される咀嚼コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SnackCode.html"/>
+                <display value="間食コード"/>
+            </reference>
+            <name value="間食コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される間食コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-InformationProvisionCode.html"/>
+                <display value="情報提供コード"/>
+            </reference>
+            <name value="情報提供コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される情報提供コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FirstInterview.html"/>
+                <display value="初回面接"/>
+            </reference>
+            <name value="初回面接"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される初回面接が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-QualitativeTestResults.html"/>
+                <display value="定性検査結果"/>
+            </reference>
+            <name value="定性検査結果"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される定性検査結果が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-QualitativeTestResults2.html"/>
+                <display value="定性検査結果2"/>
+            </reference>
+            <name value="定性検査結果2"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される定性検査結果2が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationQualitativeTestResultCode.html"/>
+                <display value="健診定性検査結果コード"/>
+            </reference>
+            <name value="健診定性検査結果コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診定性検査結果コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-VirusTiter.html"/>
+                <display value="ウイルス等のタイター"/>
+            </reference>
+            <name value="ウイルス等のタイター"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるウイルス等のタイターが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationKWClassification.html"/>
+                <display value="眼底検査KW分類"/>
+            </reference>
+            <name value="眼底検査KW分類"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査KW分類が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationScheyerClassificationH.html"/>
+                <display value="眼底検査シェイエ分類 H"/>
+            </reference>
+            <name value="眼底検査シェイエ分類 H"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査シェイエ分類 Hが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationScheyerClassificationS.html"/>
+                <display value="眼底検査シェイエ分類 S"/>
+            </reference>
+            <name value="眼底検査シェイエ分類 S"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査シェイエ分類 Sが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationSCOTTClassificationS.html"/>
+                <display value="眼底検査 SCOTT 分類 S"/>
+            </reference>
+            <name value="眼底検査 SCOTT 分類 S"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査 SCOTT 分類 Sが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationWongMitchellClassification.html"/>
+                <display value="眼底検査 Wong-Mitchell 分類"/>
+            </reference>
+            <name value="眼底検査 Wong-Mitchell 分類"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査 Wong-Mitchell 分類が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationModifiedDavisClassification.html"/>
+                <display value="眼底検査改変 Davis 分類"/>
+            </reference>
+            <name value="眼底検査改変 Davis 分類"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査改変 Davis 分類が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-BloodTypeABO.html"/>
+                <display value="血液型（ABO）"/>
+            </reference>
+            <name value="血液型（ABO）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される血液型(ABO)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-BloodTypeRh.html"/>
+                <display value="血液型（Rh）"/>
+            </reference>
+            <name value="血液型（Rh）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される血液型(Rh)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CervicalCytologyJapaneseMotherClassification.html"/>
+                <display value="子宮頸部細胞診(日母分類)"/>
+            </reference>
+            <name value="子宮頸部細胞診(日母分類)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される子宮頸部細胞診(日母分類)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-UterineBodyCytologyGynecologicalMaterial.html"/>
+                <display value="子宮体部細胞診 (細胞診婦人科材料)"/>
+            </reference>
+            <name value="子宮体部細胞診 (細胞診婦人科材料)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される子宮体部細胞診 (細胞診婦人科材料)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SputumTestCytology.html"/>
+                <display value="喀痰検査細胞診"/>
+            </reference>
+            <name value="喀痰検査細胞診"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される喀痰検査細胞診が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SputumTestGaffKey.html"/>
+                <display value="喀痰検査ガフキー"/>
+            </reference>
+            <name value="喀痰検査ガフキー"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される喀痰検査ガフキーが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CancerScreening.html"/>
+                <display value="がん検診"/>
+            </reference>
+            <name value="がん検診"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるがん検診が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CancerdScreeningJudgment.html"/>
+                <display value="がん検診判定"/>
+            </reference>
+            <name value="がん検診判定"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるがん検診判定が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HepatitisCVirusScreeningJudgment.html"/>
+                <display value="C型肝炎ウイルス検診の判定"/>
+            </reference>
+            <name value="C型肝炎ウイルス検診の判定"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義されるC型肝炎ウイルス検診の判定が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SerumCreatinineSubject.html"/>
+                <display value="血清クレアチニン（対象者）"/>
+            </reference>
+            <name value="血清クレアチニン（対象者）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される血清クレアチニン(対象者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ECGSubject.html"/>
+                <display value="心電図（対象者）"/>
+            </reference>
+            <name value="心電図（対象者）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される心電図(対象者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-FundusExaminationSubject.html"/>
+                <display value="眼底検査（対象者）"/>
+            </reference>
+            <name value="眼底検査（対象者）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査(対象者)が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-BloodGlucosePostprandialTimeDivision2.html"/>
+                <display value="随時血糖食後時間区分2"/>
+            </reference>
+            <name value="随時血糖食後時間区分2"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される随時血糖食後時間区分2が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HearingTestMethod.html"/>
+                <display value="聴力検査方法"/>
+            </reference>
+            <name value="聴力検査方法"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される聴力検査方法が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ResultsOfLifeFunctionEvaluation1.html"/>
+                <display value="生活機能評価の結果 1"/>
+            </reference>
+            <name value="生活機能評価の結果 1"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活機能評価の結果 1が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ResultsOfLifeFunctionEvaluation2.html"/>
+                <display value="生活機能評価の結果 2"/>
+            </reference>
+            <name value="生活機能評価の結果 2"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活機能評価の結果 2が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SupportLevelCode.html"/>
+                <display value="支援レベルコード"/>
+            </reference>
+            <name value="支援レベルコード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される支援レベルコードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidanceSupportFormOfTheFirstInterview.html"/>
+                <display value="初回面接時保健指導支援形態"/>
+            </reference>
+            <name value="初回面接時保健指導支援形態"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される初回面接時保健指導支援形態が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidanceSupportFormOfMidTermEvaluation.html"/>
+                <display value="中間評価時保健指導支援形態"/>
+            </reference>
+            <name value="中間評価時保健指導支援形態"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される中間評価時保健指導支援形態が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidanceSupportFormOfFinalEvaluation.html"/>
+                <display value="最終（３ヶ月）評価時保健指導支援形態"/>
+            </reference>
+            <name value="最終（３ヶ月）評価時保健指導支援形態"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される最終(3ヶ月)評価時保健指導支援形態が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MainCorrespondenceContentClassification.html"/>
+                <display value="主対応内容区分"/>
+            </reference>
+            <name value="主対応内容区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される主対応内容区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ImprovementStatus.html"/>
+                <display value="改善状態"/>
+            </reference>
+            <name value="改善状態"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される改善状態が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-WillToQuitSmoking.html"/>
+                <display value="禁煙意志"/>
+            </reference>
+            <name value="禁煙意志"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される禁煙意志が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HealthGuidancePersonnelClassification.html"/>
+                <display value="保健指導関係者区分"/>
+            </reference>
+            <name value="保健指導関係者区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される保健指導関係者区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-ImplementationContent.html"/>
+                <display value="実施内容"/>
+            </reference>
+            <name value="実施内容"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される実施内容が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CurrentHealth.html"/>
+                <display value="あなたの現在の健康状態はいかがですか（後期）"/>
+            </reference>
+            <name value="あなたの現在の健康状態はいかがですか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「あなたの現在の健康状態はいかがですか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-LifeSatisfaction.html"/>
+                <display value="毎日の生活に満足していますか（後期）"/>
+            </reference>
+            <name value="毎日の生活に満足していますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「毎日の生活に満足していますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MealStatus.html"/>
+                <display value="１日３食きちんと食べていますか（後期）"/>
+            </reference>
+            <name value="１日３食きちんと食べていますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「1日3食きちんと食べていますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-HardMealStatus.html"/>
+                <display value="半年前に比べて固いもの(*)が食べにくくなりましたか（後期）*さきいか、たくあんなど"/>
+            </reference>
+            <name value="半年前に比べて固いもの(*)が食べにくくなりましたか（後期）*さきいか、たくあんなど"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「半年前に比べて固いもの(*)が食べにくくなりましたか(後期)*さきいか、たくあんなど」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-DrinkingStatus.html"/>
+                <display value="お茶や汁物等でむせることがありますか（後期）"/>
+            </reference>
+            <name value="お茶や汁物等でむせることがありますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「お茶や汁物等でむせることがありますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-WeightLoss.html"/>
+                <display value="６カ月間で２～３kg 以上の体重減少がありましたか（後期）"/>
+            </reference>
+            <name value="６カ月間で２～３kg 以上の体重減少がありましたか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「6カ月間で2～3kg 以上の体重減少がありましたか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-WalkingSpeed.html"/>
+                <display value="以前に比べて歩く速度が遅くなってきたと思いますか（後期）"/>
+            </reference>
+            <name value="以前に比べて歩く速度が遅くなってきたと思いますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「以前に比べて歩く速度が遅くなってきたと思いますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Fall.html"/>
+                <display value="この 1 年間に転んだことがありますか（後期）"/>
+            </reference>
+            <name value="この 1 年間に転んだことがありますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「この 1 年間に転んだことがありますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Exercise.html"/>
+                <display value="ウォーキング等の運動を週に 1回以上していますか（後期）"/>
+            </reference>
+            <name value="ウォーキング等の運動を週に 1回以上していますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「ウォーキング等の運動を週に 1回以上していますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Forgetfulness.html"/>
+                <display value="周りの人から「いつも同じことを聞く」などの物忘れがあると言われていますか（後期）"/>
+            </reference>
+            <name value="周りの人から「いつも同じことを聞く」などの物忘れがあると言われていますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「周りの人から「いつも同じことを聞く」などの物忘れがあると言われていますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-DateRecognition.html"/>
+                <display value="今日が何月何日かわからない時がありますか（後期）"/>
+            </reference>
+            <name value="今日が何月何日かわからない時がありますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「今日が何月何日かわからない時がありますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Smoking.html"/>
+                <display value="あなたはたばこを吸いますか（後期）"/>
+            </reference>
+            <name value="あなたはたばこを吸いますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「あなたはたばこを吸いますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-GoOut.html"/>
+                <display value="週に 1 回以上は外出していますか（後期）"/>
+            </reference>
+            <name value="週に 1 回以上は外出していますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「週に 1 回以上は外出していますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Socializing.html"/>
+                <display value="ふだんから家族や友人と付き合いがありますか（後期）"/>
+            </reference>
+            <name value="ふだんから家族や友人と付き合いがありますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「ふだんから家族や友人と付き合いがありますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-Consultation.html"/>
+                <display value="体調が悪いときに、身近に相談できる人がいますか（後期）"/>
+            </reference>
+            <name value="体調が悪いときに、身近に相談できる人がいますか（後期）"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される「体調が悪いときに、身近に相談できる人がいますか(後期)」が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-SpecificHealthCheckupsItemCode.html"/>
+                <display value="特定健診項目コード表"/>
+            </reference>
+            <name value="特定健診項目コード表"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される特定健診項目コード表が含まれます。&#xA;XML健診コード表の項目コード(JLAC10-17 桁コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-QuestionnaireResponse"/>
+                <display value="問診結果"/>
+            </reference>
+            <name value="問診結果"/>
+            <description value="特定健診・特定保健指導の問診結果(質問と回答を含む)です。  &#xA;このリソースは、質問と回答に十分な情報が含まれているため、基になっている質問票とはある程度独立して解釈できます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CapabilityStatement/specific-health-checkups-server"/>
+                <display value="Specific Health Checkups Server"/>
+            </reference>
+            <name value="Specific Health Checkups Server"/>
+            <description value="特定健診のサーバ機能の機能ステートメントです。  &#xA;使用できるリソース(Resource Type)と使用できる操作(Read	Search:検索参照,	Update:更新,	Create:作成,	Delete:削除)の関係を示します。  &#xA;表で&quot;y&quot;となっている操作が使用できます。空欄となっている操作は使用できません。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-BloodGlucosePostprandialTimeDivision.html"/>
+                <display value="随時血糖食後時間区分"/>
+            </reference>
+            <name value="随時血糖食後時間区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される随時血糖食後時間区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-CervicalCytologyCytologyGynecologyn.html"/>
+                <display value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+            </reference>
+            <name value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-MedicalExaminationNotices.html"/>
+                <display value="健診検査特記事項有無コード"/>
+            </reference>
+            <name value="健診検査特記事項有無コード"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される健診検査特記事項有無コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-WillingnessToImproveLifestyle.html"/>
+                <display value="生活習慣改善意志区分"/>
+            </reference>
+            <name value="生活習慣改善意志区分"/>
+            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活習慣改善意志区分が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-BillingClassification"/>
+                <display value="厚労省付属資料7別表7(請求区分コード)"/>
+            </reference>
+            <name value="厚労省付属資料7別表7(請求区分コード)"/>
+            <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表7(請求区分コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-MedicalExaminationNotices"/>
+                <display value="健診検査特記事項有無コード"/>
+            </reference>
+            <name value="健診検査特記事項有無コード"/>
+            <description value="特定健診・特定保健指導で使用されている健診検査特記事項有無コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults"/>
+                <display value="定性検査結果"/>
+            </reference>
+            <name value="定性検査結果"/>
+            <description value="特定健診・特定保健指導で使用されている定性検査結果です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults2"/>
+                <display value="定性検査結果2"/>
+            </reference>
+            <name value="定性検査結果2"/>
+            <description value="特定健診・特定保健指導で使用されている定性検査結果です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+                <display value="食事の速さコード"/>
+            </reference>
+            <name value="食事の速さコード"/>
+            <description value="特定健診・特定保健指導で使用されている食事の速さコードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment"/>
+                <display value="メタボリックシンドローム判定"/>
+            </reference>
+            <name value="メタボリックシンドローム判定"/>
+            <description value="特定健診・特定保健指導で使用されているメタボリックシンドローム判定です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-ReconfirmerCode"/>
+                <display value="再確認者コード"/>
+            </reference>
+            <name value="再確認者コード"/>
+            <description value="特定健診・特定保健指導で使用されている再確認者コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory"/>
+                <display value="報告区分"/>
+            </reference>
+            <name value="報告区分"/>
+            <description value="特定健診・特定保健指導で使用されている報告区分です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2"/>
+                <display value="生活機能評価の結果 2"/>
+            </reference>
+            <name value="生活機能評価の結果 2"/>
+            <description value="特定健診・特定保健指導で使用されている生活機能評価の結果 2です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-SnackCode"/>
+                <display value="間食コード"/>
+            </reference>
+            <name value="間食コード"/>
+            <description value="特定健診・特定保健指導で使用されている間食コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode"/>
+                <display value="支援レベルコード"/>
+            </reference>
+            <name value="支援レベルコード"/>
+            <description value="特定健診・特定保健指導で使用されている支援レベルコードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-TicketType"/>
+                <display value="券面種別"/>
+            </reference>
+            <name value="券面種別"/>
+            <description value="特定健診・特定保健指導で使用されている券面種別です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+                <display value="厚労省付属資料7別表13(支援形態コード)"/>
+            </reference>
+            <name value="厚労省付属資料7別表13(支援形態コード)"/>
+            <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表13(支援形態コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle"/>
+                <display value="生活習慣改善意志区分"/>
+            </reference>
+            <name value="生活習慣改善意志区分"/>
+            <description value="特定健診・特定保健指導で使用されている生活習慣改善意志区分です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-TypeCode"/>
+                <display value="厚労省付属資料7別表1(種別コード)"/>
+            </reference>
+            <name value="厚労省付属資料7別表1(種別コード)"/>
+            <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表1(種別コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+                <display value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+            </reference>
+            <name value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+            <description value="特定健診・特定保健指導で使用されている子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode"/>
+                <display value="咀嚼コード"/>
+            </reference>
+            <name value="咀嚼コード"/>
+            <description value="特定健診・特定保健指導で使用されている咀嚼コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh"/>
+                <display value="血液型(Rh)"/>
+            </reference>
+            <name value="血液型(Rh)"/>
+            <description value="特定健診・特定保健指導で使用されている血液型(Rh)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+                <display value="厚労省付属資料7別表10(過誤返戻理由コード)"/>
+            </reference>
+            <name value="厚労省付属資料7別表10(過誤返戻理由コード)"/>
+            <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表10(過誤返戻理由コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+                <display value="飲酒習慣"/>
+            </reference>
+            <name value="飲酒習慣"/>
+            <description value="特定健診・特定保健指導で使用されている飲酒習慣です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode"/>
+                <display value="CDA セクションコード"/>
+            </reference>
+            <name value="CDA セクションコード"/>
+            <description value="特定健診・特定保健指導で使用されているCDA セクションコードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-GoOut"/>
+                <display value="週に 1 回以上は外出していますか(後期)"/>
+            </reference>
+            <name value="週に 1 回以上は外出していますか(後期)"/>
+            <description value="特定健診・特定保健指導で使用されている週に 1 回以上は外出していますか(後期)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-GenderClassificationCode"/>
+                <display value="厚労省付属資料7別表4(男女区分コード)"/>
+            </reference>
+            <name value="厚労省付属資料7別表4(男女区分コード)"/>
+            <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表4(男女区分コード)です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-InformationProvisionCode"/>
+                <display value="情報提供コード"/>
+            </reference>
+            <name value="情報提供コード"/>
+            <description value="特定健診・特定保健指導で使用されている情報提供コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+                <display value="問診結果コード2"/>
+            </reference>
+            <name value="問診結果コード2"/>
+            <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod"/>
+                <display value="聴力検査方法"/>
+            </reference>
+            <name value="聴力検査方法"/>
+            <description value="特定健診・特定保健指導で使用されている聴力検査方法です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode3"/>
+                <display value="問診結果コード3"/>
+            </reference>
+            <name value="問診結果コード3"/>
+            <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode"/>
+                <display value="問診結果コード"/>
+            </reference>
+            <name value="問診結果コード"/>
+            <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-Patient"/>
+                <display value="患者情報"/>
+            </reference>
+            <name value="患者情報"/>
+            <description value="患者の情報です。  &#xA;医療行為や関連サービスを受けている個人も含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-Organization"/>
+                <display value="医療機関"/>
+            </reference>
+            <name value="医療機関"/>
+            <description value="医療機関、薬局の情報です。  &#xA;診療行為、調剤に関わった企業、機関、部門や保健者等が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-Observation"/>
+                <display value="健診結果・保健指導結果"/>
+            </reference>
+            <name value="健診結果・保健指導結果"/>
+            <description value="健診結果・保健指導結果です。  &#xA;バイタルサイン、身長、体重、喫煙・飲酒状況などの簡単な観察に使用されます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="ホーム"/>
+            <generation value="markdown"/>
+            <page>
+                <nameUrl value="summary.html"/>
+                <title value="概要"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="usecase.html"/>
+                <title value="ユースケース"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <nameUrl value="guidance.html"/>
+                <title value="ガイダンス"/>
+                <generation value="markdown"/>
+                <page>
+                    <nameUrl value="mapping.html"/>
+                    <title value="特定健診情報とFHIRリソースのマッピング"/>
+                    <generation value="markdown"/>
+                </page>
+                <page>
+                    <nameUrl value="search.html"/>
+                    <title value="データ検索の方法"/>
+                    <generation value="markdown"/>
+                </page>
+                <page>
+                    <nameUrl value="structure.html"/>
+                    <title value="構造定義"/>
+                    <generation value="markdown"/>
+                </page>
+                <page>
+                    <nameUrl value="terminology.html"/>
+                    <title value="使用するコード体系"/>
+                    <generation value="markdown"/>
+                </page>
+            </page>
+        </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

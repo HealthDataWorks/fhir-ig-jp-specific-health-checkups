@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-MetabolicSyndromeJudgment.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:17.855+00:00"/>
+        <source value="#vZgjKCAC6VRlyfik"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1008"/>
+    </identifier>
+    <name value="MetabolicSyndromeJudgment"/>
+    <title value="メタボリックシンドローム判定"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義されるメタボリックシンドローム判定が含まれます。"/>
+</ValueSet>

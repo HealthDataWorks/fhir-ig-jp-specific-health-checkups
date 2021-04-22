@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-SpecificHealthGuidanceItemCode.html"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2021-03-22T12:22:53.064+00:00"/>
+        <source value="#MF4ufZ3sN3jyVFMH"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SpecificHealthGuidanceItemCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1006"/>
+    </identifier>
+    <name value="SpecificHealthGuidanceItemCode"/>
+    <title value="特定保健指導項目コード表"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される特定保健指導項目コード表が含まれます。&#xA;XML保健指導コード表の項目コードです。"/>
+</ValueSet>

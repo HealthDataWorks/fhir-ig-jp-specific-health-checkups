@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-MedicalExaminationNotices.html"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-03-22T11:23:17.648+00:00"/>
+        <source value="#XGC8jspi2bu15sdA"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationNotices.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.2001"/>
+    </identifier>
+    <name value="MedicalExaminationNotices"/>
+    <title value="健診検査特記事項有無コード"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される健診検査特記事項有無コードが含まれます。"/>
+</ValueSet>

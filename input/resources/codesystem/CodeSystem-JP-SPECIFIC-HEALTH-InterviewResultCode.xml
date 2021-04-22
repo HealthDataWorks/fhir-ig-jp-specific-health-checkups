@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:26.648+00:00"/>
+        <source value="#9rYpHAfLe4BrdoSm"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode"/>
+    <name value="InterviewResultCode"/>
+    <title value="問診結果コード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="はい"/>
+        <definition value="はい"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="いいえ"/>
+        <definition value="いいえ"/>
+    </concept>
+</CodeSystem>

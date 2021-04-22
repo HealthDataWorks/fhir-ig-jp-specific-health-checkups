@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-CervicalCytologyCytologyGynecologyn.html"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-03-22T11:23:15.146+00:00"/>
+        <source value="#G3Ayiegb9sUTJF3W"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecologyn.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.18100"/>
+    </identifier>
+    <name value="CervicalCytologyCytologyGynecology"/>
+    <title value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001が含まれます。"/>
+</ValueSet>

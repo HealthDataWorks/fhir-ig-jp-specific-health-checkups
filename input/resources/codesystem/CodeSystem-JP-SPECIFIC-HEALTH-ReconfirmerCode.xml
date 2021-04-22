@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-ReconfirmerCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.347+00:00"/>
+        <source value="#yObgxmZK6cJoN293"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ReconfirmerCode"/>
+    <name value="ReconfirmerCode"/>
+    <title value="再確認者コード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている再確認者コードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ReconfirmerCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="医師が本人との面談等にて確認"/>
+        <definition value="医師が本人との面談等にて確認"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="保健師が本人との面談等にて確認"/>
+        <definition value="保健師が本人との面談等にて確認"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="管理栄養士が本人との面談等にて確認"/>
+        <definition value="管理栄養士が本人との面談等にて確認"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="看護師が本人との面談等にて確認"/>
+        <definition value="看護師が本人との面談等にて確認"/>
+    </concept>
+</CodeSystem>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.604+00:00"/>
+        <source value="#Oat5kaxBV6mORVWo"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode"/>
+    <name value="SupportLevelCode"/>
+    <title value="支援レベルコード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている支援レベルコードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SupportLevelCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="積極的支援"/>
+        <definition value="積極的支援"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="動機づけ支援"/>
+        <definition value="動機づけ支援"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="なし(情報提供)"/>
+        <definition value="なし(情報提供)"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="判定不能"/>
+        <definition value="判定不能"/>
+    </concept>
+</CodeSystem>

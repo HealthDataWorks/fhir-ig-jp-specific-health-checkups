@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-QualitativeTestResults2.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:18.048+00:00"/>
+        <source value="#my81POFXwUPwuA3U"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.2101"/>
+    </identifier>
+    <name value="QualitativeTestResults2"/>
+    <title value="定性検査結果2"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される定性検査結果2が含まれます。"/>
+</ValueSet>

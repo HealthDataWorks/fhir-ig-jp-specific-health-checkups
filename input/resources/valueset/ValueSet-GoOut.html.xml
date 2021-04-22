@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-GoOut.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:16.354+00:00"/>
+        <source value="#rMWCKOyYOAAeWLCM"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-GoOut.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.19130"/>
+    </identifier>
+    <name value="GoOut"/>
+    <title value="週に 1 回以上は外出していますか(後期)"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される「週に 1 回以上は外出していますか(後期)」が含まれます。"/>
+</ValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.312+00:00"/>
+        <source value="#RN225uyxrzwue0Ac"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+    <name value="MealSpeedCode"/>
+    <title value="食事の速さコード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている食事の速さコードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="速い"/>
+        <definition value="速い"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="ふつう"/>
+        <definition value="ふつう"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="遅い"/>
+        <definition value="遅い"/>
+    </concept>
+</CodeSystem>

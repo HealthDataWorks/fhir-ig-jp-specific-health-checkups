@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-WillingnessToImproveLifestyle.html"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2021-03-22T11:23:19.089+00:00"/>
+        <source value="#4p3Jd8N26eX1jR8L"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.2007"/>
+    </identifier>
+    <name value="WillingnessToImproveLifestyle"/>
+    <title value="生活習慣改善意志区分"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される生活習慣改善意志区分が含まれます。"/>
+</ValueSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-SpecificHealthCheckupsItemCode.html"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2021-03-22T12:22:07.883+00:00"/>
+        <source value="#KjBCTwdSHovblwtg"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SpecificHealthCheckupsItemCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1005"/>
+    </identifier>
+    <name value="SpecificHealthCheckupsItemCode"/>
+    <title value="特定健診項目コード表"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される特定健診項目コード表が含まれます。&#xA;XML健診コード表の項目コード(JLAC10-17 桁コード)です。"/>
+</ValueSet>

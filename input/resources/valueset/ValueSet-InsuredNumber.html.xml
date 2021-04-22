@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-InsuredNumber.html"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2021-04-21T02:02:36.025+00:00"/>
+        <source value="#TkUPCHn5sRmPIW3j"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InsuredNumber.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.205"/>
+    </identifier>
+    <name value="InsuredNumber"/>
+    <title value="被保険者番号"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者番号が含まれます。"/>
+</ValueSet>

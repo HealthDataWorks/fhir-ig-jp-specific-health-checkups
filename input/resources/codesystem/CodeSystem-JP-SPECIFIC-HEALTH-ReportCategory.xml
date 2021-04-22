@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.398+00:00"/>
+        <source value="#rhuTj30z78nMSn03"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory"/>
+    <name value="ReportCategory"/>
+    <title value="報告区分"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている報告区分です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ReportCategory"/>
+    <content value="complete"/>
+    <concept>
+        <code value="10"/>
+        <display value="特定健診情報"/>
+        <definition value="特定健診情報"/>
+    </concept>
+    <concept>
+        <code value="19"/>
+        <display value="提出済み健診情報(閲覧用ファイル)の削除依頼"/>
+        <definition value="提出済み健診情報(閲覧用ファイル)の削除依頼"/>
+    </concept>
+    <concept>
+        <code value="21"/>
+        <display value="特定保健指導情報(開始時、別表11のコード 1 に相当)"/>
+        <definition value="特定保健指導情報(開始時、別表11のコード 1 に相当)"/>
+    </concept>
+    <concept>
+        <code value="22"/>
+        <display value="特定保健指導情報(実績評価時＝集合契約の場合の最終決済時、別表11のコード 2 に相当)"/>
+        <definition value="特定保健指導情報(実績評価時＝集合契約の場合の最終決済時、別表11のコード 2 に相当)"/>
+    </concept>
+    <concept>
+        <code value="23"/>
+        <display value="特定保健指導情報(途中終了時＝利用停止等、別表11のコード 3 に相当)"/>
+        <definition value="特定保健指導情報(途中終了時＝利用停止等、別表11のコード 3 に相当)"/>
+    </concept>
+    <concept>
+        <code value="24"/>
+        <display value="特定保健指導情報(その他＝別表11のコード 4 に相当)"/>
+        <definition value="特定保健指導情報(その他＝別表11のコード 4 に相当)"/>
+    </concept>
+    <concept>
+        <code value="25"/>
+        <display value="特定保健指導情報(初回未完了＝別表11のコード 5 に相当)"/>
+        <definition value="特定保健指導情報(初回未完了＝別表11のコード 5 に相当)"/>
+    </concept>
+    <concept>
+        <code value="30"/>
+        <display value="国への実施結果報告"/>
+        <definition value="国への実施結果報告"/>
+    </concept>
+    <concept>
+        <code value="40"/>
+        <display value="特定健診以外の健診結果を送付"/>
+        <definition value="特定健診以外の健診結果を送付"/>
+    </concept>
+    <concept>
+        <code value="90"/>
+        <display value="そのほか"/>
+        <definition value="そのほか"/>
+    </concept>
+</CodeSystem>

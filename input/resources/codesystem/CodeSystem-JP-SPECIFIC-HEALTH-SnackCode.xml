@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-SnackCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.541+00:00"/>
+        <source value="#ucxXd3DOTGfVjPNf"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-SnackCode"/>
+    <name value="SnackCode"/>
+    <title value="間食コード"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている間食コードです。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SnackCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="毎日"/>
+        <definition value="毎日"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="時々"/>
+        <definition value="時々"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="ほとんど摂取しない"/>
+        <definition value="ほとんど摂取しない"/>
+    </concept>
+</CodeSystem>

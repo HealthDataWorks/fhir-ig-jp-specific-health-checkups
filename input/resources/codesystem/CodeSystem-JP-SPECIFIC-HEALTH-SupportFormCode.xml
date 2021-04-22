@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.662+00:00"/>
+        <source value="#CiCc37QpaXdO6uFB"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+    <name value="SupportFormCode"/>
+    <title value="厚労省付属資料7別表13(支援形態コード)"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表13(支援形態コード)です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="個別支援 A"/>
+        <definition value="個別支援 A"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="個別支援 B"/>
+        <definition value="個別支援 B"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="グループ支援"/>
+        <definition value="グループ支援"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="電話 A"/>
+        <definition value="電話 A"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="電話 B"/>
+        <definition value="電話 B"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="e-mail A"/>
+        <definition value="e-mail A"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="e-mail B"/>
+        <definition value="e-mail B"/>
+    </concept>
+</CodeSystem>

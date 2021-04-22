@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-TypeCode"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.751+00:00"/>
+        <source value="#jZBfsCZftN9GIb2Y"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-TypeCode"/>
+    <name value="TypeCode"/>
+    <title value="厚労省付属資料7別表1(種別コード)"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表1(種別コード)です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-TypeCode"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="特定健診機関又は特定保健指導機関から代行機関"/>
+        <definition value="特定健診機関又は特定保健指導機関から代行機関"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="代行機関から特定健診機関又は特定保健指導機関"/>
+        <definition value="代行機関から特定健診機関又は特定保健指導機関"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="代行機関から保険者"/>
+        <definition value="代行機関から保険者"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="保険者から代行機関(未決済データの場合)"/>
+        <definition value="保険者から代行機関(未決済データの場合)"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="保険者から代行機関(決済済データの場合)"/>
+        <definition value="保険者から代行機関(決済済データの場合)"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="特定健診機関又は特定保健指導機関から保険者"/>
+        <definition value="特定健診機関又は特定保健指導機関から保険者"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="保険者から特定健診機関又は特定保健指導機関"/>
+        <definition value="保険者から特定健診機関又は特定保健指導機関"/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="保険者から保険者"/>
+        <definition value="保険者から保険者"/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="その他"/>
+        <definition value="その他"/>
+    </concept>
+    <concept>
+        <code value="10"/>
+        <display value="保険者から国(支払基金)"/>
+        <definition value="保険者から国(支払基金)"/>
+    </concept>
+    <concept>
+        <code value="11"/>
+        <display value="代行機関から保険者へ確認依頼"/>
+        <definition value="代行機関から保険者へ確認依頼"/>
+    </concept>
+    <concept>
+        <code value="12"/>
+        <display value="予備"/>
+        <definition value="予備"/>
+    </concept>
+    <concept>
+        <code value="13"/>
+        <display value="予備"/>
+        <definition value="予備"/>
+    </concept>
+</CodeSystem>

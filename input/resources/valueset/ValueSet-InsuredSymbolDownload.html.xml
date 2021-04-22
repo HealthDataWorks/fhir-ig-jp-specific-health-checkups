@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-InsuredSymbolDownload.html"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2021-03-22T11:23:17.111+00:00"/>
+        <source value="#8moAhJiOnFS79Vwg"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InsuredSymbolDownload.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.213"/>
+    </identifier>
+    <name value="InsuredSymbolDownload"/>
+    <title value="被保険者記号(ダウンロード保険者)"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される被保険者記号(ダウンロード保険者)が含まれます。"/>
+</ValueSet>

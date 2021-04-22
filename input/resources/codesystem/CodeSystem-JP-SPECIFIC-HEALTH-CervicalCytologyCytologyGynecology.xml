@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-03-22T08:46:25.868+00:00"/>
+        <source value="#VFK9wOOHzZD1kwNB"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+    <name value="CervicalCytologyCytologyGynecology"/>
+    <title value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
+    <status value="draft"/>
+    <description value="特定健診・特定保健指導で使用されている子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)です。"/>
+    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+    <content value="complete"/>
+    <concept>
+        <code value="1"/>
+        <display value="NILM"/>
+        <definition value="NILM"/>
+    </concept>
+    <concept>
+        <code value="2"/>
+        <display value="ASC-US"/>
+        <definition value="ASC-US"/>
+    </concept>
+    <concept>
+        <code value="3"/>
+        <display value="ASC-H"/>
+        <definition value="ASC-H"/>
+    </concept>
+    <concept>
+        <code value="4"/>
+        <display value="LSIL"/>
+        <definition value="LSIL"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="HSIL"/>
+        <definition value="HSIL"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="SCC"/>
+        <definition value="SCC"/>
+    </concept>
+    <concept>
+        <code value="7"/>
+        <display value="AGC"/>
+        <definition value="AGC"/>
+    </concept>
+    <concept>
+        <code value="8"/>
+        <display value="AIS"/>
+        <definition value="AIS"/>
+    </concept>
+    <concept>
+        <code value="9"/>
+        <display value="Adenocarcinoma"/>
+        <definition value="Adenocarcinoma"/>
+    </concept>
+    <concept>
+        <code value="10"/>
+        <display value="other"/>
+        <definition value="other"/>
+    </concept>
+</CodeSystem>

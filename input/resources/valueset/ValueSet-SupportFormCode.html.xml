@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet
+    xmlns="http://hl7.org/fhir">
+    <id value="ValueSet-SupportFormCode.html"/>
+    <meta>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-22T11:23:18.675+00:00"/>
+        <source value="#Tb8cT7yz8fDGFt6k"/>
+    </meta>
+    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SupportFormCode.html"/>
+    <identifier>
+        <use value="official"/>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.392.200119.6.1113"/>
+    </identifier>
+    <name value="SupportFormCode"/>
+    <title value="厚労省付属資料7別表13(支援形態コード)"/>
+    <status value="draft"/>
+    <description value="このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表13(支援形態コード)が含まれます。"/>
+</ValueSet>
