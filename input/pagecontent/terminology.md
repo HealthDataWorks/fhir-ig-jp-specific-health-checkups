@@ -7,3 +7,5 @@
 
 #### コードシステム
 この実装ガイドに必要なコードシステムの一覧はを [Terminology: Code Systems](artifacts.html#用語-コードシステム)を参照してください。
+
+[Next Page - ダウンロード](downloads.html)

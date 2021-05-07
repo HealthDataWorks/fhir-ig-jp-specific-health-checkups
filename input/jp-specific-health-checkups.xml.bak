@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="jp-specific-health-checkups"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2021-05-06T22:59:26.690+00:00"/>
-        <source value="#iwCwxbTntg25Lpv9"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-04-28T03:56:28.355+00:00"/>
+        <source value="#dzHPHFDRu1mKdcNx"/>
     </meta>
     <url value="https://healthdataworks.net/hl7-fhir/ImplementationGuide/jp-specific-health-checkups"/>
     <version value="0.8.0"/>
@@ -1332,11 +1332,6 @@
                     <title value="使用するコード体系"/>
                     <generation value="markdown"/>
                 </page>
-            </page>
-            <page>
-                <nameUrl value="downloads.html"/>
-                <title value="ダウンロード"/>
-                <generation value="markdown"/>
             </page>
         </page>
         <parameter>
