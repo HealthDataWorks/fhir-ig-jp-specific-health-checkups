@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.082+00:00"/>
-        <source value="#NQ7pxOsofwj60o44"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:08:09.568+00:00"/>
+        <source value="#tYH97dQEMBoaT3Wa"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode.html"/>
     <name value="ErrorReturnReasonCode"/>
     <title value="厚労省付属資料7別表10(過誤返戻理由コード)"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表10(過誤返戻理由コード)です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode.html"/>
     <content value="complete"/>
     <concept>
         <code value="01"/>

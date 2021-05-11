@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.310+00:00"/>
-        <source value="#emtx2No1JNZijAB4"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:23:13.600+00:00"/>
+        <source value="#A2qBBpAWR7BSifEC"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2.html"/>
     <name value="ResultsOfLifeFunctionEvaluation2"/>
     <title value="生活機能評価の結果 2"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている生活機能評価の結果 2です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

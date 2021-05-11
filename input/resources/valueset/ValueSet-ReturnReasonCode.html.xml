@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-ReturnReasonCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.249+00:00"/>
-        <source value="#1s1Y77RWxKzmKkvZ"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:52:19.010+00:00"/>
+        <source value="#R8afIG6TpGn1BdSf"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ReturnReasonCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReturnReasonCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

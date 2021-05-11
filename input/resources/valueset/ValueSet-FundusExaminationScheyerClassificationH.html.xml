@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-FundusExaminationScheyerClassificationH.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.990+00:00"/>
-        <source value="#BFeywfDYGJaYvmBt"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:28:17.944+00:00"/>
+        <source value="#a7WaOSF2M1FVYyhQ"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationScheyerClassificationH.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationScheyerClassificationH.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

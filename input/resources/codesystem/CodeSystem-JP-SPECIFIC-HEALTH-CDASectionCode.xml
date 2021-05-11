@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.081+00:00"/>
-        <source value="#BzexaLy3sYaddXz6"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:06:22.176+00:00"/>
+        <source value="#12gzLmUFRWH0yc4C"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode.html"/>
     <name value="CDASectionCode"/>
     <title value="CDA セクションコード"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されているCDA セクションコードです。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode.html"/>
     <content value="complete"/>
     <concept>
         <code value="01010"/>

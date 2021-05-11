@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-InterviewResultCode.html"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-03-22T11:23:17.261+00:00"/>
-        <source value="#SdVcakkfKIuEdY7z"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-10T09:48:37.076+00:00"/>
+        <source value="#ePkybDDAtqrtbvWn"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -17,4 +17,9 @@
     <title value="問診結果コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、特定健診・特定保健指導で定義される問診結果コードが含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode.html"/>
+        </include>
+    </compose>
 </ValueSet>

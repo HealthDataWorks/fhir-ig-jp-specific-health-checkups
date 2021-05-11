@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-SputumTestCytology.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.531+00:00"/>
-        <source value="#ekkLlRT75tTzsSQ1"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:44:38.354+00:00"/>
+        <source value="#ZrzlUAHinjZdD6aM"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SputumTestCytology.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SputumTestCytology.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

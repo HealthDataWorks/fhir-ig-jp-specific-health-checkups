@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-InsuredSymbol.html"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-04-21T02:02:49.054+00:00"/>
-        <source value="#ue7JCdNVO0C53Hnb"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-10T08:37:36.490+00:00"/>
+        <source value="#ZKYYxq7eYGKXruBB"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InsuredSymbol.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InsuredSymbol.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

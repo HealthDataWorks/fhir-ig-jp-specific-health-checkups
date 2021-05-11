@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-LifeSatisfaction.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:17.389+00:00"/>
-        <source value="#zE1lpH90dR7aVTda"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:39:29.717+00:00"/>
+        <source value="#AV0oLn4TGYwVy1tS"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-LifeSatisfaction.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-LifeSatisfaction.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

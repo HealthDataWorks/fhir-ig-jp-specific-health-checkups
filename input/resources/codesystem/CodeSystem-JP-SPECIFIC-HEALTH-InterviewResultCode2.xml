@@ -3,15 +3,15 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.478+00:00"/>
-        <source value="#lPtK9J4OXPv8fhND"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:10:10.091+00:00"/>
+        <source value="#e31ZToq4tbNrZgDC"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2.html"/>
     <name value="InterviewResultCode2"/>
     <title value="問診結果コード2"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている問診結果コードです。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode2"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode2.html"/>
     <content value="complete"/>
 </CodeSystem>

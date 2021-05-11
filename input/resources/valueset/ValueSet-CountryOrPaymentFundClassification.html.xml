@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-CountryOrPaymentFundClassification.html"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-04-21T02:00:55.139+00:00"/>
-        <source value="#gcwNFP3VTWv7waYt"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-10T08:19:44.073+00:00"/>
+        <source value="#Kdk3hieWH0sQv90b"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CountryOrPaymentFundClassification.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CountryOrPaymentFundClassification.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

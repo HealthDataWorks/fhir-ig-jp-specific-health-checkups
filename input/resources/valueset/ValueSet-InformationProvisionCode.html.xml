@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-InformationProvisionCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:16.805+00:00"/>
-        <source value="#5zXGgeCZzF9cuBMp"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T09:53:15.395+00:00"/>
+        <source value="#gCPb0TLsmSjFf1PB"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InformationProvisionCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InformationProvisionCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -17,4 +17,9 @@
     <title value="情報提供コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、特定健診・特定保健指導で定義される情報提供コードが含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-InformationProvisionCode.html"/>
+        </include>
+    </compose>
 </ValueSet>

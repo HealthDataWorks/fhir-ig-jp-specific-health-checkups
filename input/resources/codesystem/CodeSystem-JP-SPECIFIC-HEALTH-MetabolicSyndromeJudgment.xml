@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.311+00:00"/>
-        <source value="#yjkEm6WjUpewrWV3"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:11:29.927+00:00"/>
+        <source value="#MTWMyZEovZPjUUPh"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html"/>
     <name value="MetabolicSyndromeJudgment"/>
     <title value="メタボリックシンドローム判定"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されているメタボリックシンドローム判定です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

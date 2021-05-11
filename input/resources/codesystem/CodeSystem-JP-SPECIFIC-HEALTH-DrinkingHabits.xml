@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.082+00:00"/>
-        <source value="#NyC64jgYWDkbdsNe"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-05-10T09:07:45.159+00:00"/>
+        <source value="#KcN7IVqJAp8sDRua"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-DrinkingHabits.html"/>
     <name value="DrinkingHabits"/>
     <title value="飲酒習慣"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている飲酒習慣です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-DrinkingHabits"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-DrinkingHabits.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

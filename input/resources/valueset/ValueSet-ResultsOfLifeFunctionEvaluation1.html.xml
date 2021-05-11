@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-ResultsOfLifeFunctionEvaluation1.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.134+00:00"/>
-        <source value="#VpRs4uleBdwddlwm"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:51:40.114+00:00"/>
+        <source value="#32JT8y7pbUqxTwln"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation1.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation1.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -16,5 +16,4 @@
     <name value="ResultsOfLifeFunctionEvaluation1"/>
     <title value="生活機能評価の結果 1"/>
     <status value="draft"/>
-    <description value="このバリューセットには、特定健診・特定保健指導で定義される生活機能評価の結果 1が含まれます。"/>
 </ValueSet>

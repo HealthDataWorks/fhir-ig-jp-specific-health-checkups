@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-Smoking.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.397+00:00"/>
-        <source value="#gjS7uX28v6VKJhxq"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:52:55.760+00:00"/>
+        <source value="#GgYimPti0kg6nYoJ"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-Smoking.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-Smoking.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -16,5 +16,4 @@
     <name value="Smoking"/>
     <title value="あなたはたばこを吸いますか(後期)"/>
     <status value="draft"/>
-    <description value="このバリューセットには、特定健診・特定保健指導で定義される「あなたはたばこを吸いますか(後期)」が含まれます。"/>
 </ValueSet>

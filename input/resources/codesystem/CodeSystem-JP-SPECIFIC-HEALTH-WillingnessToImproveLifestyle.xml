@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.646+00:00"/>
-        <source value="#7mTRw5I9ZoSKZHwQ"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:05:01.908+00:00"/>
+        <source value="#zQhUHWqThSzw95i5"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle.html"/>
     <name value="WillingnessToImproveLifestyle"/>
     <title value="生活習慣改善意志区分"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている生活習慣改善意志区分です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-WillingnessToImproveLifestyle.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-HealthGuidanceSupportFormOfTheFirstInterview.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:16.632+00:00"/>
-        <source value="#WRM8lBOQwQnrSDFx"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:32:40.187+00:00"/>
+        <source value="#BpP7qep1CagSo5Xv"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfTheFirstInterview.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfTheFirstInterview.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -16,5 +16,4 @@
     <name value="HealthGuidanceSupportFormOfTheFirstInterview"/>
     <title value="初回面接時保健指導支援形態"/>
     <status value="draft"/>
-    <description value="このバリューセットには、特定健診・特定保健指導で定義される初回面接時保健指導支援形態が含まれます。"/>
 </ValueSet>

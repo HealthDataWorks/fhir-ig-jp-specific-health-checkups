@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-BillingClassification"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-03-22T08:46:25.857+00:00"/>
-        <source value="#0gj98MXtpLA6ac4e"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-05-10T09:05:49.143+00:00"/>
+        <source value="#q8LCabVwHCVuYNB8"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-BillingClassification"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-BillingClassification.html"/>
     <name value="BillingClassificationCode"/>
     <title value="厚労省付属資料7別表7(請求区分コード)"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表7(請求区分コード)です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-BillingClassification"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BillingClassification.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

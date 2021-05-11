@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-InsuredCardBranchNumber.html"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-04-21T02:02:15.034+00:00"/>
-        <source value="#sY5CpQOPq9Svsmu1"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:36:25.519+00:00"/>
+        <source value="#rs3NXVMyV2FfAhwz"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-InsuredCardBranchNumber.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InsuredCardBranchNumber.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.398+00:00"/>
-        <source value="#rhuTj30z78nMSn03"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:05:34.078+00:00"/>
+        <source value="#PBvtU3Xbka4HDwoz"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory.html"/>
     <name value="ReportCategory"/>
     <title value="報告区分"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている報告区分です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ReportCategory"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReportCategory.html"/>
     <content value="complete"/>
     <concept>
         <code value="10"/>

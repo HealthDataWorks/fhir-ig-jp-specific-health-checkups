@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.480+00:00"/>
-        <source value="#7GLI9TdNBCyB5pUp"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:09:07.327+00:00"/>
+        <source value="#8w8PgtB7oSvF5hoM"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod.html"/>
     <name value="HearingTestMethod"/>
     <title value="聴力検査方法"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている聴力検査方法です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-HearingTestMethod"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HearingTestMethod.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

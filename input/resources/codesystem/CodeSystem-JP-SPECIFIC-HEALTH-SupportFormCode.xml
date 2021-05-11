@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.662+00:00"/>
-        <source value="#CiCc37QpaXdO6uFB"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:24:05.488+00:00"/>
+        <source value="#ArMpxpTDlcTySnPc"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode.html"/>
     <name value="SupportFormCode"/>
     <title value="厚労省付属資料7別表13(支援形態コード)"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている厚労省付属資料7別表13(支援形態コード)です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-SupportFormCode"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SupportFormCode.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

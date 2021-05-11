@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-QualitativeTestResults2.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.048+00:00"/>
-        <source value="#my81POFXwUPwuA3U"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-10T10:01:37.467+00:00"/>
+        <source value="#DyYFZ8whck5rcQK7"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -17,4 +17,9 @@
     <title value="定性検査結果2"/>
     <status value="draft"/>
     <description value="このバリューセットには、特定健診・特定保健指導で定義される定性検査結果2が含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html"/>
+        </include>
+    </compose>
 </ValueSet>

@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-CervicalCytologyCytologyGynecologyn.html"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-03-22T11:23:15.146+00:00"/>
-        <source value="#G3Ayiegb9sUTJF3W"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T08:16:41.817+00:00"/>
+        <source value="#b3ukfBLDVWYXQMxW"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecologyn.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecologyn.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:26.002+00:00"/>
-        <source value="#7IeDnyG3iUEpszWj"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:06:04.941+00:00"/>
+        <source value="#1oHV3P44xRA9Oj2m"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh.html"/>
     <name value="BloodTypeRh"/>
     <title value="血液型(Rh)"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている血液型(Rh)です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-BloodTypeRh"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BloodTypeRh.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

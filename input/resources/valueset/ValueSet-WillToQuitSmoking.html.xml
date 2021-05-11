@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-WillToQuitSmoking.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:19.098+00:00"/>
-        <source value="#uZt10MJwjLFU7XTB"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:24:51.835+00:00"/>
+        <source value="#1yT4yzu7xqdpWnHH"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-WillToQuitSmoking.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-WillToQuitSmoking.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -16,5 +16,4 @@
     <name value="WillToQuitSmoking"/>
     <title value="禁煙意志"/>
     <status value="draft"/>
-    <description value="このバリューセットには、特定健診・特定保健指導で定義される禁煙意志が含まれます。"/>
 </ValueSet>

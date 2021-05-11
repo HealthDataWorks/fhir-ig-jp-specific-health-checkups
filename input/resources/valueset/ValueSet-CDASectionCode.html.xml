@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-CDASectionCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.085+00:00"/>
-        <source value="#EtUR6LMqLiQ7Erh4"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:15:31.650+00:00"/>
+        <source value="#20Nl872IZUl3xNbK"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

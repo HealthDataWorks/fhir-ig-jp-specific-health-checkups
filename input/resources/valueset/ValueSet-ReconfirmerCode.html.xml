@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-ReconfirmerCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:18.048+00:00"/>
-        <source value="#97Hd2UQmEIJl1QU9"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T10:02:48.362+00:00"/>
+        <source value="#YCA8BzXxQNVMv6iH"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-ReconfirmerCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReconfirmerCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -17,4 +17,9 @@
     <title value="再確認者コード"/>
     <status value="draft"/>
     <description value="このバリューセットには、特定健診・特定保健指導で定義される再確認者コードが含まれます。"/>
+    <compose>
+        <include>
+            <system value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ReconfirmerCode.html"/>
+        </include>
+    </compose>
 </ValueSet>

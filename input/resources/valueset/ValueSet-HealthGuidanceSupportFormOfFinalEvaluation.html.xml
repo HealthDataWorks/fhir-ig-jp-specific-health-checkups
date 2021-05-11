@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-HealthGuidanceSupportFormOfFinalEvaluation.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:16.493+00:00"/>
-        <source value="#JcH5wX1qKOJAgUDt"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:32:08.397+00:00"/>
+        <source value="#zGM0f4p6QXAZdqmc"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfFinalEvaluation.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfFinalEvaluation.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

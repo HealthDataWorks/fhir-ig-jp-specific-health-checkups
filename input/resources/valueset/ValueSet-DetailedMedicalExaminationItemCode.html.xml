@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-DetailedMedicalExaminationItemCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.480+00:00"/>
-        <source value="#nxUpg7zUILCWYu9t"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:20:43.705+00:00"/>
+        <source value="#1jjbWaGa8JKW6exZ"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-DetailedMedicalExaminationItemCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-DetailedMedicalExaminationItemCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

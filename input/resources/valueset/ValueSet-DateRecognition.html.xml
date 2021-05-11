@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-DateRecognition.html"/>
     <meta>
-        <versionId value="6"/>
-        <lastUpdated value="2021-03-22T11:23:15.561+00:00"/>
-        <source value="#4XdcBj44oayNtGie"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-05-10T08:20:26.922+00:00"/>
+        <source value="#BE5QQwEKK07Mn3Xl"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-DateRecognition.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-DateRecognition.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-CounterBurdenCode.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.304+00:00"/>
-        <source value="#MhLIAKNOwtq3nrf1"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:18:47.117+00:00"/>
+        <source value="#mJYg5Sl7nr3n3LLw"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CounterBurdenCode.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CounterBurdenCode.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

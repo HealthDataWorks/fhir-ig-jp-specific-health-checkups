@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.868+00:00"/>
-        <source value="#VFK9wOOHzZD1kwNB"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-05-10T09:06:48.128+00:00"/>
+        <source value="#aJY5XtxDLOAgrd2E"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology.html"/>
     <name value="CervicalCytologyCytologyGynecology"/>
     <title value="子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている子宮頸部細胞診(細胞診婦人科材料)(ベセスダシステム2001)です。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CervicalCytologyCytologyGynecology.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

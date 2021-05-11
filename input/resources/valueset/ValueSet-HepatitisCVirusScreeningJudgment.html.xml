@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-HepatitisCVirusScreeningJudgment.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:16.575+00:00"/>
-        <source value="#zx03SKdhTErlPgop"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-10T08:33:17.299+00:00"/>
+        <source value="#gSGO0Toj968oRKP9"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-HepatitisCVirusScreeningJudgment.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HepatitisCVirusScreeningJudgment.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

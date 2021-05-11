@@ -3,16 +3,16 @@
     xmlns="http://hl7.org/fhir">
     <id value="CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-03-22T08:46:25.312+00:00"/>
-        <source value="#RN225uyxrzwue0Ac"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-05-10T09:10:39.286+00:00"/>
+        <source value="#paYIWsuaALaDd85G"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode.html"/>
     <name value="MealSpeedCode"/>
     <title value="食事の速さコード"/>
     <status value="draft"/>
     <description value="特定健診・特定保健指導で使用されている食事の速さコードです。"/>
-    <valueSet value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-MealSpeedCode"/>
+    <valueSet value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MealSpeedCode.html"/>
     <content value="complete"/>
     <concept>
         <code value="1"/>

@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-Forgetfulness.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.896+00:00"/>
-        <source value="#PCjm38XVr1zXZbGd"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-11T06:17:33.191+00:00"/>
+        <source value="#bSgo6F5dXy1Eogco"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-Forgetfulness.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-guidance/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-Forgetfulness.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

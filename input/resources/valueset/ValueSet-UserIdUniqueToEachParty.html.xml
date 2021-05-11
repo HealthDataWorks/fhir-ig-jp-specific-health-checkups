@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-UserIdUniqueToEachParty.html"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2021-03-22T12:21:17.812+00:00"/>
-        <source value="#BxxTJwKilxUMrGnV"/>
+        <versionId value="6"/>
+        <lastUpdated value="2021-05-10T08:26:52.731+00:00"/>
+        <source value="#tdOIsiLF8iUG3ddm"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-UserIdUniqueToEachParty.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-UserIdUniqueToEachParty.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

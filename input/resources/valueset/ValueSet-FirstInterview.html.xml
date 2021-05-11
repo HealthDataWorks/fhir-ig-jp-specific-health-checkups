@@ -3,11 +3,11 @@
     xmlns="http://hl7.org/fhir">
     <id value="ValueSet-FirstInterview.html"/>
     <meta>
-        <versionId value="4"/>
-        <lastUpdated value="2021-03-22T11:23:15.873+00:00"/>
-        <source value="#kxo9gub5DICyVqOs"/>
+        <versionId value="5"/>
+        <lastUpdated value="2021-05-11T06:16:15.175+00:00"/>
+        <source value="#xorj2ktDQYLCrapM"/>
     </meta>
-    <url value="https://xxx/JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-FirstInterview.html"/>
+    <url value="https://igs.healthdataworks.net/jp-specific-health-guidance/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FirstInterview.html"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
