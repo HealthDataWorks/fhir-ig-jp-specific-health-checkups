@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="jp-specific-health-checkups"/>
     <meta>
-        <versionId value="8"/>
-        <lastUpdated value="2021-05-06T22:59:26.690+00:00"/>
-        <source value="#iwCwxbTntg25Lpv9"/>
+        <versionId value="26"/>
+        <lastUpdated value="2021-06-02T08:13:16.584+00:00"/>
+        <source value="#4cjooxvrm0VGI0Mc"/>
     </meta>
     <url value="https://healthdataworks.net/hl7-fhir/ImplementationGuide/jp-specific-health-checkups"/>
     <version value="0.8.0"/>
@@ -679,7 +679,6 @@
                 <display value="血清クレアチニン（対象者）"/>
             </reference>
             <name value="血清クレアチニン（対象者）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される血清クレアチニン(対象者)が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -688,7 +687,6 @@
                 <display value="心電図（対象者）"/>
             </reference>
             <name value="心電図（対象者）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される心電図(対象者)が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -697,7 +695,6 @@
                 <display value="眼底検査（対象者）"/>
             </reference>
             <name value="眼底検査（対象者）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される眼底検査(対象者)が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -706,7 +703,6 @@
                 <display value="随時血糖食後時間区分2"/>
             </reference>
             <name value="随時血糖食後時間区分2"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される随時血糖食後時間区分2が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -715,7 +711,6 @@
                 <display value="聴力検査方法"/>
             </reference>
             <name value="聴力検査方法"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される聴力検査方法が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -724,7 +719,6 @@
                 <display value="生活機能評価の結果 1"/>
             </reference>
             <name value="生活機能評価の結果 1"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活機能評価の結果 1が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -733,7 +727,6 @@
                 <display value="生活機能評価の結果 2"/>
             </reference>
             <name value="生活機能評価の結果 2"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される生活機能評価の結果 2が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -751,7 +744,6 @@
                 <display value="初回面接時保健指導支援形態"/>
             </reference>
             <name value="初回面接時保健指導支援形態"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される初回面接時保健指導支援形態が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -787,7 +779,6 @@
                 <display value="改善状態"/>
             </reference>
             <name value="改善状態"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される改善状態が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -796,7 +787,6 @@
                 <display value="禁煙意志"/>
             </reference>
             <name value="禁煙意志"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される禁煙意志が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -886,7 +876,6 @@
                 <display value="この 1 年間に転んだことがありますか（後期）"/>
             </reference>
             <name value="この 1 年間に転んだことがありますか（後期）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される「この 1 年間に転んだことがありますか(後期)」が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -895,7 +884,6 @@
                 <display value="ウォーキング等の運動を週に 1回以上していますか（後期）"/>
             </reference>
             <name value="ウォーキング等の運動を週に 1回以上していますか（後期）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される「ウォーキング等の運動を週に 1回以上していますか(後期)」が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -922,7 +910,6 @@
                 <display value="あなたはたばこを吸いますか（後期）"/>
             </reference>
             <name value="あなたはたばこを吸いますか（後期）"/>
-            <description value="このバリューセットには、特定健診・特定保健指導で定義される「あなたはたばこを吸いますか(後期)」が含まれます。"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
@@ -1292,6 +1279,194 @@
             </reference>
             <name value="健診結果・保健指導結果"/>
             <description value="健診結果・保健指導結果です。  &#xA;バイタルサイン、身長、体重、喫煙・飲酒状況などの簡単な観察に使用されます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionPatientNameKana"/>
+                <display value="カナ表記"/>
+            </reference>
+            <name value="カナ表記"/>
+            <description value="カナ表記であることを⽰します。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionOrganizationPrefectureNo"/>
+                <display value="都道府県番号"/>
+            </reference>
+            <name value="都道府県番号"/>
+            <description value="都道府県番号です。２桁で指定します。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionOeganizationOrganizationNo"/>
+                <display value="保険医療機関コード"/>
+            </reference>
+            <name value="保険医療機関コード"/>
+            <description value="保険医療機関番号です。７桁で指定します。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionOrganizationOrganizationCategory"/>
+                <display value="点数表コード"/>
+            </reference>
+            <name value="点数表コード"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionPatientNameKanji"/>
+                <display value="漢字表記"/>
+            </reference>
+            <name value="漢字表記"/>
+            <description value="漢字表記であることを⽰す。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionPatientNameRoma"/>
+                <display value="ローマ字表記"/>
+            </reference>
+            <name value="ローマ字表記"/>
+            <description value="ローマ字表記であることを⽰す。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionPatientContactPosition"/>
+                <display value="役割、役職情報"/>
+            </reference>
+            <name value="役割、役職情報"/>
+            <description value="ローマ字表記であることを⽰す。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionCoverageInsuredPersonNo"/>
+                <display value="保険情報の被保険者番号"/>
+            </reference>
+            <name value="保険情報の被保険者番号"/>
+            <description value="被保険者証番号を表す拡張 InsuredPersonNumber です。保険種別が「1:医保」、「2:国保」、「7:後期⾼齢者」の場合に記録します。&#xA;それ以外の場合は、本拡張要素は出現しません。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-ExtensionCoverageInsuredPersonSymbol"/>
+                <display value="保険情報の被保険者記号"/>
+            </reference>
+            <name value="保険情報の被保険者記号"/>
+            <description value="被保険者証記号を表す拡張 InsuredPersonSymbol です。保険種別が「1:医保」、「2:国保」の場合に記録します。&#xA;被保険者証記号がない場合は、本拡張要素は出現しません。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-REZEPT-Coverage"/>
+                <display value="保険・被保険者情報"/>
+            </reference>
+            <name value="保険・被保険者情報"/>
+            <description value="保険情報、公費情報です。  &#xA;医療サービスや調剤等の請求額と自己負担金の両方が含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-Practitioner"/>
+                <display value="健診結果報告書作成者情報"/>
+            </reference>
+            <name value="健診結果報告書作成者情報"/>
+            <description value="健診結果報告書作成者情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-PractitionerRole"/>
+                <display value="健診結果報告書作成者"/>
+            </reference>
+            <name value="健診結果報告書作成者"/>
+            <description value="健診結果報告書作成者の情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-Encounter"/>
+                <display value="健診実施情報"/>
+            </reference>
+            <name value="健診実施情報"/>
+            <description value="健診実施情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-Specimen"/>
+                <display value="Specimen"/>
+            </reference>
+            <name value="検体情報"/>
+            <description value="検体情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-Media"/>
+                <display value="Media"/>
+            </reference>
+            <name value="画像情報"/>
+            <description value="画像情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-DocumentReference"/>
+                <display value="DocumentReference"/>
+            </reference>
+            <name value="添付文書情報"/>
+            <description value="添付文書情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-DiagnosticReport"/>
+                <display value="DiagnosticReport"/>
+            </reference>
+            <name value="検査報告書情報"/>
+            <description value="検査報告書情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-CHECKUP-Bundle"/>
+                <display value="Bundle"/>
+            </reference>
+            <name value="健診結果報告書"/>
+            <description value="健診結果報告書です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/JP-SPECIFIC-HEALTH-CHECKUP-Composition"/>
+                <display value="Composition"/>
+            </reference>
+            <name value="健診結果の文書構成情報"/>
+            <description value="健診結果の文書構成情報です。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/ValueSet-JP-REZEPT-BearerType"/>
+                <display value="負担者種別コード"/>
+            </reference>
+            <name value="負担者種別コード"/>
+            <description value="このバリューセットには、レセプト電算処理システムで定義されている負担者種別コードが含まれます。"/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-JP-REZEPT-BearerType"/>
+                <display value="負担者種別コード"/>
+            </reference>
+            <name value="負担者種別コード"/>
+            <description value="レセプト電算処理システムで使用されている負担者種別コードです。&#xA;&#xA;医科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(医科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_1_kiroku.pdf) の「別表28 負担者種別コード」に記載されています。&#xA;&#xA;DPCレセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(DPC用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_2_kiroku_dpc.pdf) の「別表37 負担者種別コード」に記載されています。&#xA;&#xA;歯科レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(歯科用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_3_kiroku_dental.pdf) の「別表27 負担者種別コード」に記載されています。&#xA;&#xA;調剤レセプトでこのコードは[オンライン又は光ディスク等による請求に係る記録条件仕様(調剤用)](https://shinryohoshu.mhlw.go.jp/shinryohoshu/file/spec/R02bt1_4_kiroku_chozai.pdf) の「別表20 負担者種別コード」に記載されています。"/>
             <exampleBoolean value="false"/>
         </resource>
         <page>
