@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ResultsOfLifeFunctionEvaluation2",
+  "id": "ValueSet-ResultsOfLifeFunctionEvaluation2.html",
+  "title": "生活機能評価の結果 2",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T10:14:27.694+00:00",
+    "source": "#w2Tir4XJQJXAdOlw"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2502"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ResultsOfLifeFunctionEvaluation2.html"
+      }
+    ]
+  }
+}

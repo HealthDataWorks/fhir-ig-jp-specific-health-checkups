@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FundusExaminationModifiedDavisClassification",
+  "id": "ValueSet-FundusExaminationModifiedDavisClassification.html",
+  "title": "眼底検査改変 Davis 分類",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される眼底検査改変 Davis 分類が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-guidance/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationModifiedDavisClassification.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-11T06:18:16.213+00:00",
+    "source": "#pX9lSTOBpWIu0zB1"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18090"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GoOut",
+  "id": "ValueSet-GoOut.html",
+  "title": "週に 1 回以上は外出していますか(後期)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される「週に 1 回以上は外出していますか(後期)」が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-GoOut.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:44:27.587+00:00",
+    "source": "#UqtiPmmtu6a8iXxm"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.19130"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-GoOut.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "GoOut",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-GoOut",
+  "title": "週に 1 回以上は外出していますか(後期)",
+  "description": "特定健診・特定保健指導で使用されている週に 1 回以上は外出していますか(後期)です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-GoOut.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:08:46.845+00:00",
+    "source": "#Hx3Crl3eH3AOfgZi"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-GoOut.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "はい",
+      "definition": "はい"
+    },
+    {
+      "code": "2",
+      "display": "いいえ",
+      "definition": "いいえ"
+    }
+  ],
+  "count": 2
+}

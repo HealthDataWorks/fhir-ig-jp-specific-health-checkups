@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "DateRecognition",
+  "id": "ValueSet-DateRecognition.html",
+  "title": "今日が何月何日かわからない時がありますか(後期)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される「今日が何月何日かわからない時がありますか(後期)」が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-DateRecognition.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T08:20:26.922+00:00",
+    "source": "#BE5QQwEKK07Mn3Xl"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.19110"
+    }
+  ]
+}

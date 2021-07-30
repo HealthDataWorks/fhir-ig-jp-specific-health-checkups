@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MedicalExaminationFindingsInterpretationCode",
+  "id": "ValueSet-MedicalExaminationFindingsInterpretationCode.html",
+  "title": "健診検査所見解釈コード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される健診検査所見解釈コードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationFindingsInterpretationCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:41:35.992+00:00",
+    "source": "#kr9J8AljpDXX3yCL"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2002"
+    }
+  ]
+}

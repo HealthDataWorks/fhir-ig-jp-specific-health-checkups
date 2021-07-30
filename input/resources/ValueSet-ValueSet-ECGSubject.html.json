@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ECGSubject",
+  "id": "ValueSet-ECGSubject.html",
+  "title": "心電図(対象者)",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ECGSubject.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:21:50.689+00:00",
+    "source": "#dAkwFGYQM2vmIzct"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18120"
+    }
+  ]
+}

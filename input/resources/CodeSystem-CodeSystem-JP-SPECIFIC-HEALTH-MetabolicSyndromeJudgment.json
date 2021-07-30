@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MetabolicSyndromeJudgment",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment",
+  "title": "メタボリックシンドローム判定",
+  "description": "特定健診・特定保健指導で使用されているメタボリックシンドローム判定です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:11:29.927+00:00",
+    "source": "#MTWMyZEovZPjUUPh"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "基準該当",
+      "definition": "基準該当"
+    },
+    {
+      "code": "2",
+      "display": "予備群該当",
+      "definition": "予備群該当"
+    },
+    {
+      "code": "3",
+      "display": "非該当",
+      "definition": "非該当"
+    },
+    {
+      "code": "4",
+      "display": "判定不能",
+      "definition": "判定不能"
+    }
+  ],
+  "count": 4
+}

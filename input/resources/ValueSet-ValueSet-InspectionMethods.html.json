@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InspectionMethods",
+  "id": "ValueSet-InspectionMethods.html",
+  "title": "検査方法10桁コード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される検査方法10桁コードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InspectionMethods.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:36:07.526+00:00",
+    "source": "#V5WM3ZSA02wRGuQs"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1007"
+    }
+  ]
+}

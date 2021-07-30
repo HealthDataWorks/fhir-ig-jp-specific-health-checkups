@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SputumTestGaffKey",
+  "id": "ValueSet-SputumTestGaffKey.html",
+  "title": "喀痰検査ガフキー",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される喀痰検査ガフキーが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SputumTestGaffKey.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:44:53.362+00:00",
+    "source": "#B8hxHhaA0Bl9Tsq7"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2131"
+    }
+  ]
+}

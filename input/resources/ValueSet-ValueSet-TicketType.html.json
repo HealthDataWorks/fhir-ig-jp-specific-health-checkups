@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TicketType",
+  "id": "ValueSet-TicketType.html",
+  "title": "券面種別",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される券面種別が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-TicketType.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T10:17:57.588+00:00",
+    "source": "#Ns5iDQ2ndA8WMhYY"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.208"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-TicketType.html"
+      }
+    ]
+  }
+}

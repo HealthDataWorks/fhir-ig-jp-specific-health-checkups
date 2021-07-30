@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReportCategory",
+  "id": "ValueSet-ReportCategory.html",
+  "title": "報告区分",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される報告区分が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReportCategory.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T10:13:24.107+00:00",
+    "source": "#ia6iJ1qeOvKs1HFi"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1001"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory.html"
+      }
+    ]
+  }
+}

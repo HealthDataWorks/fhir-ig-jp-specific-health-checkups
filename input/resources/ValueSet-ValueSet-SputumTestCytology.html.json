@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SputumTestCytology",
+  "id": "ValueSet-SputumTestCytology.html",
+  "title": "喀痰検査細胞診",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される喀痰検査細胞診が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SputumTestCytology.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:44:38.354+00:00",
+    "source": "#ZrzlUAHinjZdD6aM"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2130"
+    }
+  ]
+}

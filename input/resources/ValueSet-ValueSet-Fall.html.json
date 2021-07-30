@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Fall",
+  "id": "ValueSet-Fall.html",
+  "title": "この 1 年間に転んだことがありますか(後期)",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-Fall.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:22:52.358+00:00",
+    "source": "#mfsdplPUDt0Jww5G"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.19080"
+    }
+  ]
+}

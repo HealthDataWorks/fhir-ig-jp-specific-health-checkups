@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SupportLevelCode",
+  "id": "ValueSet-SupportLevelCode.html",
+  "title": "支援レベルコード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される支援レベルコードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SupportLevelCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T10:17:08.624+00:00",
+    "source": "#VGsCvUhdvRcnrUUN"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.3001"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VirusTiter",
+  "id": "ValueSet-VirusTiter.html",
+  "title": "ウイルス等のタイター",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義されるウイルス等のタイターが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-VirusTiter.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:25:49.258+00:00",
+    "source": "#LhJUjcLwc83mX3nx"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2103"
+    }
+  ]
+}

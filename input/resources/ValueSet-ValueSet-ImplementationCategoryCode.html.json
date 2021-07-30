@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ImplementationCategoryCode",
+  "id": "ValueSet-ImplementationCategoryCode.html",
+  "title": "厚労省付属資料7別表3(実施区分コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表3(実施区分コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ImplementationCategoryCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:33:32.307+00:00",
+    "source": "#ieHmRYLt1cWaUGxo"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1103"
+    }
+  ]
+}

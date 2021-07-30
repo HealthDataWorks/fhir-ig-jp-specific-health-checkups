@@ -1,0 +1,228 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-QuestionnaireResponse",
+  "meta": {
+    "versionId": "17",
+    "lastUpdated": "2021-06-01T10:58:22.393+00:00",
+    "source": "#8HS39JlTYTcWE2jP"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-QuestionnaireResponse.html",
+  "version": "0.8.0",
+  "name": "QuestionnaireResponse",
+  "title": "問診結果",
+  "status": "draft",
+  "description": "特定健診・特定保健指導の問診結果(質問と回答を含む)です。  \nこのリソースは、質問と回答に十分な情報が含まれているため、基になっている質問票とはある程度独立して解釈できます。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+      "name": "特定健診",
+      "uri": "https://www.mhlw.go.jp/content/12400000/000672493.pdf",
+      "comment": "特定健診の電子的なデータ標準様式の特定健診情報ファイル仕様説明書の項目をFHIRにマッピングします。"
+    },
+    {
+      "identity": "JP-SPECIFIC-HEALTH-GUIDANCE-Mapping",
+      "name": "特定保健指導",
+      "uri": "https://www.mhlw.go.jp/content/12400000/000617344.pdf",
+      "comment": "特定保健指導の電子的なデータ標準様式の特定保健指導情報ファイル仕様説明書をFHIRにマッピングします。"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "QuestionnaireResponse",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "QuestionnaireResponse",
+        "path": "QuestionnaireResponse",
+        "short": "特定健診・特定保健指導の問診結果",
+        "definition": "特定健診・特定保健指導の問診結果(質問と回答を含む)です。\nこのリソースは、質問と回答に十分な情報が含まれているため、基になっている質問票とはある程度独立して解釈できます。",
+        "comment": "このリソースから基本情報を抽出するために、アンケートにアクセスする必要はありません。"
+      },
+      {
+        "id": "QuestionnaireResponse.id",
+        "path": "QuestionnaireResponse.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。 ",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.text",
+        "path": "QuestionnaireResponse.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "comment": "例: 週に何回飲酒しますか",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.text.status",
+        "path": "QuestionnaireResponse.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.text.div",
+        "path": "QuestionnaireResponse.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.partOf",
+        "path": "QuestionnaireResponse.partOf",
+        "short": "回答が含まれる検査結果の参照",
+        "definition": "回答が含まれる検査結果の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.partOf.reference",
+        "path": "QuestionnaireResponse.partOf.reference",
+        "short": "回答が含まれる検査結果の参照",
+        "definition": "回答が含まれる検査結果の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.status",
+        "path": "QuestionnaireResponse.status",
+        "short": "問診結果の状態",
+        "definition": "問診結果の状態です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.authored",
+        "path": "QuestionnaireResponse.authored",
+        "short": "問診結果の作成日",
+        "definition": "問診結果の作成日です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 4.1 XPath: /ClinicalDocument/effectiveTime/@value"
+          },
+          {
+            "identity": "JP-SPECIFIC-HEALTH-GUIDANCE-Mapping",
+            "map": "XML No: 4.1 XPath: /ClinicalDocument/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.author",
+        "path": "QuestionnaireResponse.author",
+        "short": "回答記録者の参照",
+        "definition": "回答記録者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.author.reference",
+        "path": "QuestionnaireResponse.author.reference",
+        "short": "回答記録者の参照",
+        "definition": "回答記録者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.source",
+        "path": "QuestionnaireResponse.source",
+        "short": "回答者の参照",
+        "definition": "回答者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.source.reference",
+        "path": "QuestionnaireResponse.source.reference",
+        "short": "回答者の参照",
+        "definition": "回答者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.item",
+        "path": "QuestionnaireResponse.item",
+        "short": "質問アイテム",
+        "definition": "質問アイテムです。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.item.linkId",
+        "path": "QuestionnaireResponse.item.linkId",
+        "short": "質問内容を特定するID",
+        "definition": "質問内容を特定するIDです。",
+        "comment": "特定保健指導項目コード表のコードを設定します。",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SpecificHealthCheckupsItemCode.html"
+        }
+      },
+      {
+        "id": "QuestionnaireResponse.item.text",
+        "path": "QuestionnaireResponse.item.text",
+        "short": "質問文",
+        "definition": "質問文です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 11.9.4 XPath: /ClinicalDocument/component/structuredBody/component/section/entry/observation/code/@displayName"
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.item.answer",
+        "path": "QuestionnaireResponse.item.answer",
+        "short": "特定健診・特定保健指導の問診結果の回答",
+        "definition": "特定健診・特定保健指導の問診結果の回答です。",
+        "mustSupport": true
+      },
+      {
+        "id": "QuestionnaireResponse.item.answer.value[x]",
+        "path": "QuestionnaireResponse.item.answer.value[x]",
+        "short": "質問への回答",
+        "definition": "質問への回答です。",
+        "comment": "回答内容に応じて型を決めます。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 11.11.2 XPath: /ClinicalDocument/component/structuredBody/component/section/entry/observation/value/@value"
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.item.item",
+        "path": "QuestionnaireResponse.item.item",
+        "short": "ネストした質問アイテム",
+        "definition": "ネストした質問アイテムです。",
+        "comment": "必要に応じてネストした質問アイテムを追加します。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

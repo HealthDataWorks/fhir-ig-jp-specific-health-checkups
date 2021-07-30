@@ -1,0 +1,164 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-DiagnosticReport",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-06-01T10:49:12.292+00:00",
+    "source": "#PTCqm5mSnRy6jK4t"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-DiagnosticReport.html",
+  "version": "0.8.0",
+  "name": "DiagnosticReport",
+  "title": "検査報告書情報",
+  "status": "draft",
+  "description": "検査報告書情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "DiagnosticReport",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DiagnosticReport",
+        "path": "DiagnosticReport",
+        "short": "検査報告書情報",
+        "definition": "検査報告書情報です。"
+      },
+      {
+        "id": "DiagnosticReport.id",
+        "path": "DiagnosticReport.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.text",
+        "path": "DiagnosticReport.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.text.status",
+        "path": "DiagnosticReport.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.text.div",
+        "path": "DiagnosticReport.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.status",
+        "path": "DiagnosticReport.status",
+        "short": "このリソースの状態",
+        "definition": "このリソースの状態です。",
+        "fixedCode": "final",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code",
+        "path": "DiagnosticReport.code",
+        "short": "報告書種別コード",
+        "definition": "報告書種別コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding",
+        "path": "DiagnosticReport.code.coding",
+        "short": "報告書種別コード",
+        "definition": "報告書種別コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.system",
+        "path": "DiagnosticReport.code.coding.system",
+        "short": "報告書種別コードのURI",
+        "definition": "報告書種別コードのURIです。",
+        "fixedUri": "http://loinc.org",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.code",
+        "path": "DiagnosticReport.code.coding.code",
+        "short": "報告書種別コード",
+        "definition": "報告書種別コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.code.coding.display",
+        "path": "DiagnosticReport.code.coding.display",
+        "short": "報告書種別コードの名称",
+        "definition": "報告書種別コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.media",
+        "path": "DiagnosticReport.media",
+        "short": "検査報告書に含まれる検査画像",
+        "definition": "検査報告書に含まれる検査画像です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.media.comment",
+        "path": "DiagnosticReport.media.comment",
+        "short": "検査報告書に含まれる検査画像に関するコメント",
+        "definition": "検査報告書に含まれる検査画像に関するコメントです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.media.link",
+        "path": "DiagnosticReport.media.link",
+        "short": "検査報告書に含まれる検査画像の参照",
+        "definition": "検査報告書に含まれる検査画像の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DiagnosticReport.media.link.reference",
+        "path": "DiagnosticReport.media.link.reference",
+        "short": "検査報告書に含まれる検査画像の参照",
+        "definition": "検査報告書に含まれる検査画像の参照です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

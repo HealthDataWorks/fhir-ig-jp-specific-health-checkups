@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LocalPublicOrganization",
+  "id": "ValueSet-LocalPublicOrganization.html",
+  "title": "地方公共団体コード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される地方公共団体コードが含まれます。\n財団法人地方自治情報センターが公開する自治体コードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-LocalPublicOrganization.html",
+  "meta": {
+    "versionId": "8",
+    "lastUpdated": "2021-05-10T08:40:08.352+00:00",
+    "source": "#5kfmlEgWIivg5UqV"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.105"
+    }
+  ]
+}

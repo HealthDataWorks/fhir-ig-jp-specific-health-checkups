@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Forgetfulness",
+  "id": "ValueSet-Forgetfulness.html",
+  "title": "周りの人から「いつも同じことを聞く」などの物忘れがあると言われていますか(後期)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される「周りの人から「いつも同じことを聞く」などの物忘れがあると言われていますか(後期)」が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-guidance/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-Forgetfulness.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-11T06:17:33.191+00:00",
+    "source": "#bSgo6F5dXy1Eogco"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.19100"
+    }
+  ]
+}

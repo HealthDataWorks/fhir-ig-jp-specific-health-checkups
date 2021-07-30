@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "SupportFormCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode",
+  "title": "厚労省付属資料7別表13(支援形態コード)",
+  "description": "特定健診・特定保健指導で使用されている厚労省付属資料7別表13(支援形態コード)です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-SupportFormCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:24:05.488+00:00",
+    "source": "#ArMpxpTDlcTySnPc"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SupportFormCode.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "個別支援 A",
+      "definition": "個別支援 A"
+    },
+    {
+      "code": "2",
+      "display": "個別支援 B",
+      "definition": "個別支援 B"
+    },
+    {
+      "code": "3",
+      "display": "グループ支援",
+      "definition": "グループ支援"
+    },
+    {
+      "code": "4",
+      "display": "電話 A",
+      "definition": "電話 A"
+    },
+    {
+      "code": "5",
+      "display": "電話 B",
+      "definition": "電話 B"
+    },
+    {
+      "code": "6",
+      "display": "e-mail A",
+      "definition": "e-mail A"
+    },
+    {
+      "code": "7",
+      "display": "e-mail B",
+      "definition": "e-mail B"
+    }
+  ],
+  "count": 7
+}

@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HealthGuidanceImplementationTimeCode",
+  "id": "ValueSet-HealthGuidanceImplementationTimeCode.html",
+  "title": "厚労省付属資料7別表11(保健指導実施時点コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表11(保健指導実施時点コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceImplementationTimeCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:31:07.038+00:00",
+    "source": "#FimyTv7rLLRI41DA"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1111"
+    }
+  ]
+}

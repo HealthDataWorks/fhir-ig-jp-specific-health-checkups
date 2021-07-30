@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BillingClassificationCode",
+  "id": "ValueSet-BillingClassificationCode.html",
+  "title": "厚労省付属資料7別表7(請求区分コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表7(請求区分コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BillingClassificationCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:13:29.505+00:00",
+    "source": "#0KAS5fWn1w34bPbG"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1107"
+    }
+  ]
+}

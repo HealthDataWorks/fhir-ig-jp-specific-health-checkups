@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HealthGuidanceSupportFormOfTheFirstInterview",
+  "id": "ValueSet-HealthGuidanceSupportFormOfTheFirstInterview.html",
+  "title": "初回面接時保健指導支援形態",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfTheFirstInterview.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:32:40.187+00:00",
+    "source": "#BpP7qep1CagSo5Xv"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18140"
+    }
+  ]
+}

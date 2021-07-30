@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "BloodTypeRh",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh",
+  "title": "血液型(Rh)",
+  "description": "特定健診・特定保健指導で使用されている血液型(Rh)です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:06:04.941+00:00",
+    "source": "#1oHV3P44xRA9Oj2m"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BloodTypeRh.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "+",
+      "definition": "+"
+    },
+    {
+      "code": "2",
+      "display": "-",
+      "definition": "-"
+    }
+  ],
+  "count": 2
+}

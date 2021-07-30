@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MetabolicSyndromeJudgment",
+  "id": "ValueSet-MetabolicSyndromeJudgment.html",
+  "title": "メタボリックシンドローム判定",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義されるメタボリックシンドローム判定が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:59:02.904+00:00",
+    "source": "#VVZI7d2KNE9ZNUjm"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1008"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MetabolicSyndromeJudgment.html"
+      }
+    ]
+  }
+}

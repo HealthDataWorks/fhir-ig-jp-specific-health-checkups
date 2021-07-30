@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FundusExaminationWongMitchellClassification",
+  "id": "ValueSet-FundusExaminationWongMitchellClassification.html",
+  "title": "眼底検査 Wong-Mitchell 分類",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される眼底検査 Wong-Mitchell 分類が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationWongMitchellClassification.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:29:16.744+00:00",
+    "source": "#QMHakH4fLnP54N2P"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18080"
+    }
+  ]
+}

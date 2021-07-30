@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "TypeCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-TypeCode",
+  "title": "厚労省付属資料7別表1(種別コード)",
+  "description": "特定健診・特定保健指導で使用されている厚労省付属資料7別表1(種別コード)です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-TypeCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:25:14.651+00:00",
+    "source": "#pb10g4b9R7t7uG2a"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-TypeCode.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "特定健診機関又は特定保健指導機関から代行機関",
+      "definition": "特定健診機関又は特定保健指導機関から代行機関"
+    },
+    {
+      "code": "2",
+      "display": "代行機関から特定健診機関又は特定保健指導機関",
+      "definition": "代行機関から特定健診機関又は特定保健指導機関"
+    },
+    {
+      "code": "3",
+      "display": "代行機関から保険者",
+      "definition": "代行機関から保険者"
+    },
+    {
+      "code": "4",
+      "display": "保険者から代行機関(未決済データの場合)",
+      "definition": "保険者から代行機関(未決済データの場合)"
+    },
+    {
+      "code": "5",
+      "display": "保険者から代行機関(決済済データの場合)",
+      "definition": "保険者から代行機関(決済済データの場合)"
+    },
+    {
+      "code": "6",
+      "display": "特定健診機関又は特定保健指導機関から保険者",
+      "definition": "特定健診機関又は特定保健指導機関から保険者"
+    },
+    {
+      "code": "7",
+      "display": "保険者から特定健診機関又は特定保健指導機関",
+      "definition": "保険者から特定健診機関又は特定保健指導機関"
+    },
+    {
+      "code": "8",
+      "display": "保険者から保険者",
+      "definition": "保険者から保険者"
+    },
+    {
+      "code": "9",
+      "display": "その他",
+      "definition": "その他"
+    },
+    {
+      "code": "10",
+      "display": "保険者から国(支払基金)",
+      "definition": "保険者から国(支払基金)"
+    },
+    {
+      "code": "11",
+      "display": "代行機関から保険者へ確認依頼",
+      "definition": "代行機関から保険者へ確認依頼"
+    },
+    {
+      "code": "12",
+      "display": "予備",
+      "definition": "予備"
+    },
+    {
+      "code": "13",
+      "display": "予備",
+      "definition": "予備"
+    }
+  ],
+  "count": 13
+}

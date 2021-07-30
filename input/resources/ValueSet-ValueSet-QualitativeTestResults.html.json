@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "QualitativeTestResults",
+  "id": "ValueSet-QualitativeTestResults.html",
+  "title": "定性検査結果",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される定性検査結果が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-QualitativeTestResults.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T10:00:51.655+00:00",
+    "source": "#wTnVfEDeW9kaCbOM"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2100"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults.html"
+      }
+    ]
+  }
+}

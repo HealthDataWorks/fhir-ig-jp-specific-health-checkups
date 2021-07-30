@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "UserIdUniqueToEachParty",
+  "id": "ValueSet-UserIdUniqueToEachParty.html",
+  "title": "当事者間固有の利用者ID",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される当事者間固有の利用者IDが含まれます。\n当事者間で合意して記述する利用者識別番号です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-UserIdUniqueToEachParty.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:26:52.731+00:00",
+    "source": "#tdOIsiLF8iUG3ddm"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.299"
+    }
+  ]
+}

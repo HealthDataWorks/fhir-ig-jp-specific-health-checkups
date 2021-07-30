@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MedicalExaminationInformationReferenceNumber3",
+  "id": "ValueSet-MedicalExaminationInformationReferenceNumber3.html",
+  "title": "健診情報整理番号3",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される健診情報整理番号3が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MedicalExaminationInformationReferenceNumber3.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:42:50.027+00:00",
+    "source": "#hGVNko6QjVcc5Ok4"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.900"
+    }
+  ]
+}

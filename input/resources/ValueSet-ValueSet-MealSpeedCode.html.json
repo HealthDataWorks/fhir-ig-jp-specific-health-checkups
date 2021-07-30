@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MealSpeedCode",
+  "id": "ValueSet-MealSpeedCode.html",
+  "title": "食事の速さコード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される食事の速さコードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MealSpeedCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:55:45.426+00:00",
+    "source": "#TIaPrREG5C7DNoiR"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2004"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode.html"
+      }
+    ]
+  }
+}

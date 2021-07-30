@@ -1,0 +1,159 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-Media",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-06-01T10:52:09.214+00:00",
+    "source": "#M03YpOpLppVvSlJf"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Media.html",
+  "version": "0.8.0",
+  "name": "Media",
+  "title": "画像情報",
+  "status": "draft",
+  "description": "画像情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "dicom",
+      "uri": "http://nema.org/dicom",
+      "name": "DICOM Tag Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Media",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Media",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Media",
+        "path": "Media",
+        "short": "画像情報",
+        "definition": "画像情報です。"
+      },
+      {
+        "id": "Media.id",
+        "path": "Media.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.text",
+        "path": "Media.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.text.status",
+        "path": "Media.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.text.div",
+        "path": "Media.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.status",
+        "path": "Media.status",
+        "short": "このリソースの状態",
+        "definition": "このリソースの状態です。",
+        "fixedCode": "completed",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content",
+        "path": "Media.content",
+        "short": "添付ファイルデータ",
+        "definition": "添付ファイルデータです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content.contentType",
+        "path": "Media.content.contentType",
+        "short": "添付ファイルデータのMimeType",
+        "definition": "添付ファイルデータのMimeTypeです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content.data",
+        "path": "Media.content.data",
+        "short": "添付ファイルデータ(Base64符号化データ)",
+        "definition": "添付ファイルデータ(Base64符号化データ)です。",
+        "comment": "データをリソースに内包する場合に定義する。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content.url",
+        "path": "Media.content.url",
+        "short": "添付ファイルデータ(外部参照URL)",
+        "definition": "添付ファイルデータ(外部参照URL)です。",
+        "comment": "データを外部参照する場合に定義する。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content.hash",
+        "path": "Media.content.hash",
+        "short": "添付ファイルのハッシュ値",
+        "definition": "添付ファイルのハッシュ値です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Media.content.title",
+        "path": "Media.content.title",
+        "short": "添付ファイルを説明するタイトル",
+        "definition": "添付ファイルを説明するタイトルです。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

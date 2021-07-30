@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "TicketType",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-TicketType",
+  "title": "券面種別",
+  "description": "特定健診・特定保健指導で使用されている券面種別です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-TicketType.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:24:55.829+00:00",
+    "source": "#Vbg0aOjwlPtyWy8F"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-TicketType.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "受診券",
+      "definition": "受診券"
+    },
+    {
+      "code": "2",
+      "display": "利用券",
+      "definition": "利用券"
+    }
+  ],
+  "count": 2
+}

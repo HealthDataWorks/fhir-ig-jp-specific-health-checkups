@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReturnReasonCode",
+  "id": "ValueSet-ReturnReasonCode.html",
+  "title": "厚労省付属資料7別表9(返戻理由コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表9(返戻理由コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReturnReasonCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:52:19.010+00:00",
+    "source": "#R8afIG6TpGn1BdSf"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1109"
+    }
+  ]
+}

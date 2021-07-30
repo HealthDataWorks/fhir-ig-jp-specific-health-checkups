@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InterviewResultCode2",
+  "id": "ValueSet-InterviewResultCode2.html",
+  "title": "問診結果コード2",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される問診結果コードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode2.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:49:12.403+00:00",
+    "source": "#t48trsJFfs0R7iyX"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2008"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode2.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-Specimen",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-06-01T10:59:57.009+00:00",
+    "source": "#8LiSI42UXOnC5UrN"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Specimen.html",
+  "version": "0.8.0",
+  "name": "Specimen",
+  "title": "検体情報",
+  "status": "draft",
+  "description": "検体情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen",
+        "path": "Specimen",
+        "short": "検体情報",
+        "definition": "検体情報です。"
+      },
+      {
+        "id": "Specimen.id",
+        "path": "Specimen.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.text",
+        "path": "Specimen.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。 ",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.text.status",
+        "path": "Specimen.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.text.div",
+        "path": "Specimen.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type",
+        "path": "Specimen.type",
+        "short": "検体の材料コード",
+        "definition": "検体の材料コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding",
+        "path": "Specimen.type.coding",
+        "short": "検体の材料コード",
+        "definition": "検体の材料コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding.system",
+        "path": "Specimen.type.coding.system",
+        "short": "検体の材料コードのURI",
+        "definition": "検体の材料コードのURIです。",
+        "fixedUri": "http://jpfhir.jp/eCheckup/CodeSystem/JLAC10-Specimen",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding.code",
+        "path": "Specimen.type.coding.code",
+        "short": "検体の材料コード",
+        "definition": "検体の材料コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding.display",
+        "path": "Specimen.type.coding.display",
+        "short": "検体の材料コードの名称",
+        "definition": "検体の材料コードの名称です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

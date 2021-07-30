@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "HealthGuidanceSupportFormOfMidTermEvaluation",
+  "id": "ValueSet-HealthGuidanceSupportFormOfMidTermEvaluation.html",
+  "title": "中間評価時保健指導支援形態",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される中間評価時保健指導支援形態が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HealthGuidanceSupportFormOfMidTermEvaluation.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:32:25.897+00:00",
+    "source": "#XPLa3NQ94VqUDO2g"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.3004"
+    }
+  ]
+}

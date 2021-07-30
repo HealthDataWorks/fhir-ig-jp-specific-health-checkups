@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "HearingTestMethod",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod",
+  "title": "聴力検査方法",
+  "description": "特定健診・特定保健指導で使用されている聴力検査方法です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-HearingTestMethod.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:09:07.327+00:00",
+    "source": "#8w8PgtB7oSvF5hoM"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-HearingTestMethod.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "オージオメトリー",
+      "definition": "オージオメトリー"
+    },
+    {
+      "code": "2",
+      "display": "その他",
+      "definition": "その他"
+    }
+  ],
+  "count": 2
+}

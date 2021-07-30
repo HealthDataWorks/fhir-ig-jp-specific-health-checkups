@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "CounterBurdenCollectionCode",
+  "id": "ValueSet-CounterBurdenCollectionCode.html",
+  "title": "厚労省付属資料7別表14(窓口負担徴収コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表14(窓口負担徴収コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-CounterBurdenCollectionCode.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:19:23.875+00:00",
+    "source": "#U3aQHEPHnpfxYxBG"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1114"
+    }
+  ]
+}

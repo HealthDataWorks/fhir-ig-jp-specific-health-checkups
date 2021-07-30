@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FirstInterview",
+  "id": "ValueSet-FirstInterview.html",
+  "title": "初回面接",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される初回面接が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-guidance/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FirstInterview.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-11T06:16:15.175+00:00",
+    "source": "#xorj2ktDQYLCrapM"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18060"
+    }
+  ]
+}

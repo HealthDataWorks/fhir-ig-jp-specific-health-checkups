@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ChewingCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode",
+  "title": "咀嚼コード",
+  "description": "特定健診・特定保健指導で使用されている咀嚼コードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:07:06.375+00:00",
+    "source": "#6OL7vzNLQcyF151O"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ChewingCode.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "何でも",
+      "definition": "何でも"
+    },
+    {
+      "code": "2",
+      "display": "かみにくい",
+      "definition": "かみにくい"
+    },
+    {
+      "code": "3",
+      "display": "ほとんどかめない",
+      "definition": "ほとんどかめない"
+    }
+  ],
+  "count": 3
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TypeCode",
+  "id": "ValueSet-TypeCode.html",
+  "title": "厚労省付属資料7別表1(種別コード)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される厚労省付属資料7別表1(種別コード)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-TypeCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T10:18:36.495+00:00",
+    "source": "#9kZN05rfbydlqd0F"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1101"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-TypeCode.html"
+      }
+    ]
+  }
+}

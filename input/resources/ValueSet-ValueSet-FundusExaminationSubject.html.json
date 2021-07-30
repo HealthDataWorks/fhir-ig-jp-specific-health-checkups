@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FundusExaminationSubject",
+  "id": "ValueSet-FundusExaminationSubject.html",
+  "title": "眼底検査(対象者)",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationSubject.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:28:59.052+00:00",
+    "source": "#cJUpjHTHKaGznS0F"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18130"
+    }
+  ]
+}

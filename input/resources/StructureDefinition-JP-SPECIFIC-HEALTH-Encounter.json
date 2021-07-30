@@ -1,0 +1,233 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-Encounter",
+  "meta": {
+    "versionId": "9",
+    "lastUpdated": "2021-06-01T10:51:09.594+00:00",
+    "source": "#Av0BK7Z6fUZTBsf5"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Management"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Encounter.html",
+  "version": "0.8.0",
+  "name": "Encounter",
+  "title": "健診実施情報",
+  "status": "draft",
+  "description": "健診実施情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+      "name": "特定健診",
+      "uri": "https://www.mhlw.go.jp/content/12400000/000672493.pdf",
+      "comment": "特定健診の電子的なデータ標準様式の特定健診情報ファイル仕様説明書の項目をFHIRにマッピングします。"
+    },
+    {
+      "identity": "JP-SPECIFIC-HEALTH-GUIDANCE-Mapping",
+      "name": "特定保健指導",
+      "uri": "https://www.mhlw.go.jp/content/12400000/000617344.pdf",
+      "comment": "特定保健指導の電子的なデータ標準様式の特定保健指導情報ファイル仕様説明書をFHIRにマッピングします。"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter",
+        "path": "Encounter",
+        "short": "健診実施情報",
+        "definition": "健診実施情報です。"
+      },
+      {
+        "id": "Encounter.id",
+        "path": "Encounter.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.text",
+        "path": "Encounter.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.text.status",
+        "path": "Encounter.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.text.div",
+        "path": "Encounter.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "short": "健診実施情報の状態",
+        "definition": "健診実施情報の状態です。",
+        "fixedCode": "finished",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.class",
+        "path": "Encounter.class",
+        "short": "受診情報の分類",
+        "definition": "受診情報の分類です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.class.system",
+        "path": "Encounter.class.system",
+        "short": "受診情報の分類コードのURI",
+        "definition": "受診情報の分類コードのURIです。",
+        "fixedUri": "http://jpfhir.jp/fhir/eCheckup/CodeSystem/encounterCategory",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.class.code",
+        "path": "Encounter.class.code",
+        "short": "受診情報の分類コード",
+        "definition": "受診情報の分類コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.class.display",
+        "path": "Encounter.class.display",
+        "short": "受診情報の分類コードの名称",
+        "definition": "受診情報の分類コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceType",
+        "path": "Encounter.serviceType",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceType.coding",
+        "path": "Encounter.serviceType.coding",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceType.coding.system",
+        "path": "Encounter.serviceType.coding.system",
+        "short": "健診プログラムサービスコードのURI",
+        "definition": "健診プログラムサービスコードのURIです。",
+        "fixedUri": "urn:oid:1.2.392.200119.6.1002",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceType.coding.code",
+        "path": "Encounter.serviceType.coding.code",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceType.coding.display",
+        "path": "Encounter.serviceType.coding.display",
+        "short": "健診プログラムサービスコードの名称",
+        "definition": "健診プログラムサービスコードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.period",
+        "path": "Encounter.period",
+        "short": "健診の受診⽇",
+        "definition": "健診の受診⽇です。",
+        "comment": "健診の実施が1日の場合は、startとendに同じ日付を設定する。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.period.start",
+        "path": "Encounter.period.start",
+        "short": "健診の受診⽇",
+        "definition": "健診の受診⽇です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          },
+          {
+            "identity": "JP-SPECIFIC-HEALTH-GUIDANCE-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "Encounter.period.end",
+        "path": "Encounter.period.end",
+        "short": "健診の受診⽇",
+        "definition": "健診の受診⽇です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          },
+          {
+            "identity": "JP-SPECIFIC-HEALTH-GUIDANCE-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "short": "健診実施機関の参照",
+        "definition": "健診実施機関の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Encounter.serviceProvider.reference",
+        "path": "Encounter.serviceProvider.reference",
+        "short": "健診実施機関の参照",
+        "definition": "健診実施機関の参照です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

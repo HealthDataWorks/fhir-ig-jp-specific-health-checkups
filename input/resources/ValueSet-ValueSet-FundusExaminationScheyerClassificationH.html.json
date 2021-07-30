@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "FundusExaminationScheyerClassificationH",
+  "id": "ValueSet-FundusExaminationScheyerClassificationH.html",
+  "title": "眼底検査シェイエ分類 H",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される眼底検査シェイエ分類 Hが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-FundusExaminationScheyerClassificationH.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:28:17.944+00:00",
+    "source": "#a7WaOSF2M1FVYyhQ"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2111"
+    }
+  ]
+}

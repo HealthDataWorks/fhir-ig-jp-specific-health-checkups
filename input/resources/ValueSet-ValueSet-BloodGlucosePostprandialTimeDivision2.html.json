@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BloodGlucosePostprandialTimeDivision2",
+  "id": "ValueSet-BloodGlucosePostprandialTimeDivision2.html",
+  "title": "随時血糖食後時間区分2",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BloodGlucosePostprandialTimeDivision2.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:14:10.437+00:00",
+    "source": "#EzEduyLJMwnjS4oH"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2202"
+    }
+  ]
+}

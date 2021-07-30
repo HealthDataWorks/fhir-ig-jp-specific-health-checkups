@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InspectionItemOriginalLocalCode",
+  "id": "ValueSet-InspectionItemOriginalLocalCode.html",
+  "title": "検査項目独自ローカルコード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される検査項目独自ローカルコードが含まれます。\nJLAC10準拠でない独自のローカルコードを検査項目等に 使用する場合のコード。\n使用方法は、別途サイト上の「厚労省手引書附属資料7に収載されていない検査項目コードの取扱い指針」を必ず参照しそれに準拠すること。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InspectionItemOriginalLocalCode.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T08:35:54.208+00:00",
+    "source": "#R66KVDMDXww3oIv1"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1205.[枝番号]"
+    }
+  ]
+}

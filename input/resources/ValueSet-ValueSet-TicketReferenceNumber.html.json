@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "TicketReferenceNumber",
+  "id": "ValueSet-TicketReferenceNumber.html",
+  "title": "利用券整理番号",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される利用券整理番号が含まれます。\noidのxxxxxxxxx は利用券を発行した８桁の保険者番号の先頭に１を付与した９桁番号です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-TicketReferenceNumber.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T08:45:57.424+00:00",
+    "source": "#i9zC4OYN3xptE992"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.210.xxxxxxxx"
+    }
+  ]
+}

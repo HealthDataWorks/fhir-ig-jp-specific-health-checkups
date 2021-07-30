@@ -1,0 +1,741 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-CHECKUP-Composition",
+  "meta": {
+    "versionId": "18",
+    "lastUpdated": "2021-06-02T06:10:00.098+00:00",
+    "source": "#uSjzTUue3VPliD0Y"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Foundation.Documents"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "not-classified"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-CHECKUP-Composition.html",
+  "version": "0.8.0",
+  "name": "Composition",
+  "title": "健診結果の文書構成情報",
+  "status": "draft",
+  "description": "健診結果の文書構成情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "fhirdocumentreference",
+      "uri": "http://hl7.org/fhir/documentreference",
+      "name": "FHIR DocumentReference"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+      "name": "特定健診",
+      "uri": "https://www.mhlw.go.jp/content/12400000/000672493.pdf",
+      "comment": "特定健診の電子的なデータ標準様式の特定健診情報ファイル仕様説明書の項目をFHIRにマッピングします。"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Composition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Composition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Composition",
+        "path": "Composition",
+        "short": "健診結果の文書構成情報",
+        "definition": "健診結果の文書構成情報です。"
+      },
+      {
+        "id": "Composition.id",
+        "path": "Composition.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.language",
+        "path": "Composition.language",
+        "short": "文書の言語",
+        "definition": "文書の言語です。",
+        "fixedCode": "ja",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.text",
+        "path": "Composition.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.text.status",
+        "path": "Composition.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.text.div",
+        "path": "Composition.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。"
+      },
+      {
+        "id": "Composition.extension",
+        "path": "Composition.extension",
+        "short": "健診結果報告書の⽂書バージョンを表す拡張",
+        "definition": "健診結果報告書の⽂書バージョンを表す拡張です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.extension.extension",
+        "path": "Composition.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Composition.extension.url",
+        "path": "Composition.extension.url",
+        "short": "健診結果報告書の⽂書バージョンを表す拡張のURI",
+        "definition": "健診結果報告書の⽂書バージョンを表す拡張のURIです。",
+        "fixedUri": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.extension.value[x]",
+        "path": "Composition.extension.value[x]",
+        "short": "⽂書のバージョン番号",
+        "definition": "⽂書のバージョン番号です。",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.identifier",
+        "path": "Composition.identifier",
+        "short": "健康診断結果報告書ID",
+        "definition": "健康診断結果報告書IDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.identifier.system",
+        "path": "Composition.identifier.system",
+        "short": "健康診断結果報告書IDの名前空間を表すURI",
+        "definition": "健康診断結果報告書IDの名前空間を表すURIです。",
+        "fixedUri": "http://jpfhir.jp/fhir/eCheckup/documentIdentifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.identifier.value",
+        "path": "Composition.identifier.value",
+        "short": "健康診断結果報告書ID",
+        "definition": "健康診断結果報告書IDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.status",
+        "path": "Composition.status",
+        "short": "このリソースの状態",
+        "definition": "このリソースの状態です。",
+        "fixedCode": "final",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type",
+        "path": "Composition.type",
+        "short": "文書区分",
+        "definition": "文書区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type.coding",
+        "path": "Composition.type.coding",
+        "short": "文書区分",
+        "definition": "文書区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type.coding.system",
+        "path": "Composition.type.coding.system",
+        "short": "文書区分のURI",
+        "definition": "文書区分のURIです。",
+        "fixedUri": "http://jpfhir.jp/fhir/eCheckup/CodeSystem/documentType",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type.coding.code",
+        "path": "Composition.type.coding.code",
+        "short": "⽂書区分コード",
+        "definition": "⽂書区分コードです。",
+        "comment": "健康診断結果報告書は「01」を定義する。",
+        "fixedCode": "01",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.type.coding.display",
+        "path": "Composition.type.coding.display",
+        "short": "⽂書区分コードの名称",
+        "definition": "⽂書区分コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.category",
+        "path": "Composition.category",
+        "short": "報告区分",
+        "definition": "報告区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.category.coding",
+        "path": "Composition.category.coding",
+        "short": "報告区分",
+        "definition": "報告区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.category.coding.system",
+        "path": "Composition.category.coding.system",
+        "short": "報告区分のURI",
+        "definition": "報告区分のURIです。",
+        "fixedUri": "urn:oid:2.16.840.1.113883.2.2.1.6.1001",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.category.coding.code",
+        "path": "Composition.category.coding.code",
+        "short": "報告区分コード",
+        "definition": "報告区分コードです。",
+        "comment": "特定健診は「10」を定義する。",
+        "fixedCode": "10",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.category.coding.display",
+        "path": "Composition.category.coding.display",
+        "short": "報告区分コード",
+        "definition": "報告区分コードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.subject",
+        "path": "Composition.subject",
+        "short": "受診者情報の参照",
+        "definition": "受診者情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.subject.reference",
+        "path": "Composition.subject.reference",
+        "short": "受診者情報の参照",
+        "definition": "受診者情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.encounter",
+        "path": "Composition.encounter",
+        "short": "健診実施情報の参照",
+        "definition": "健診実施情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.encounter.reference",
+        "path": "Composition.encounter.reference",
+        "short": "健診実施情報の参照",
+        "definition": "健診実施情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.date",
+        "path": "Composition.date",
+        "short": "健診結果報告書の作成日時",
+        "definition": "健診結果報告書の作成日時です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 4.1 XPath: /ClinicalDocument/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "Composition.author",
+        "path": "Composition.author",
+        "short": "健診結果作成者役割情報の参照",
+        "definition": "健診結果作成者役割情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.author.reference",
+        "path": "Composition.author.reference",
+        "short": "健診結果作成者役割情報の参照",
+        "definition": "健診結果作成者役割情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.title",
+        "path": "Composition.title",
+        "short": "この文書(リソース)のタイトル",
+        "definition": "この文書(リソース)のタイトルです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.confidentiality",
+        "path": "Composition.confidentiality",
+        "short": "本個⼈提供⽤健診結果報告書アクセス基準",
+        "definition": "本個⼈提供⽤健診結果報告書アクセス基準の「N」(Normal)を定義する。",
+        "fixedCode": "N",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.custodian",
+        "path": "Composition.custodian",
+        "short": "健診結果作成組織情報の参照",
+        "definition": "健診結果作成組織情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.custodian.reference",
+        "path": "Composition.custodian.reference",
+        "short": "健診結果作成組織情報の参照",
+        "definition": "健診結果作成組織情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event",
+        "path": "Composition.event",
+        "short": "健診実施情報",
+        "definition": "健診実施情報です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.code",
+        "path": "Composition.event.code",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.code.coding",
+        "path": "Composition.event.code.coding",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。"
+      },
+      {
+        "id": "Composition.event.code.coding.system",
+        "path": "Composition.event.code.coding.system",
+        "short": "健診プログラムサービスコードのURI",
+        "definition": "健診プログラムサービスコードのURIです。",
+        "fixedUri": "urn:oid:2.16.840.1.113883.2.2.1.6.1002",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.code.coding.code",
+        "path": "Composition.event.code.coding.code",
+        "short": "健診プログラムサービスコード",
+        "definition": "健診プログラムサービスコードです。",
+        "comment": "「特定健診」を示す「010」を定義する。",
+        "fixedCode": "010",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.code.coding.display",
+        "path": "Composition.event.code.coding.display",
+        "short": "健診プログラムサービスコードの名称",
+        "definition": "健診プログラムサービスコードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.period",
+        "path": "Composition.event.period",
+        "short": "健診実施⽇",
+        "definition": "健診実施⽇です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.period.start",
+        "path": "Composition.event.period.start",
+        "short": "健診実施⽇",
+        "definition": "健診実施⽇です。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "Composition.event.period.end",
+        "path": "Composition.event.period.end",
+        "short": "健診実施⽇",
+        "definition": "健診実施⽇です。",
+        "comment": "健診が1日で終わる場合は「start」と同じ日付を定義する。",
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "JP-SPECIFIC-HEALTH-CHECKUPS-Mapping",
+            "map": "XML No: 10.3.1 XPath: /ClinicalDocument/documentationOf/serviceEvent/effectiveTime/@value"
+          }
+        ]
+      },
+      {
+        "id": "Composition.event.detail",
+        "path": "Composition.event.detail",
+        "short": "健診実施情報の参照",
+        "definition": "健診実施情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.event.detail.reference",
+        "path": "Composition.event.detail.reference",
+        "short": "健診実施情報の参照",
+        "definition": "健診実施情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section",
+        "path": "Composition.section",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        },
+        "mustSupport": false
+      },
+      {
+        "id": "Composition.section:Checkup",
+        "path": "Composition.section",
+        "sliceName": "Checkup",
+        "short": "健診セクション",
+        "definition": "健診セクションです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.title",
+        "path": "Composition.section.title",
+        "short": "セクションのタイトル",
+        "definition": "セクションのタイトルです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.code",
+        "path": "Composition.section.code",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.code.coding",
+        "path": "Composition.section.code.coding",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "short": "セクション区分コードのURI",
+        "definition": "セクション区分コードのURI",
+        "fixedUri": "urn:oid:1.2.392.200119.6.1002",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "short": "セクション区分コード",
+        "definition": "セクション区分コードです。",
+        "comment": "健診セクションを示す「01910」を定義する。",
+        "fixedCode": "01910",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.code.coding.display",
+        "path": "Composition.section.code.coding.display",
+        "short": "セクション区分コードの名称",
+        "definition": "セクション区分コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.text",
+        "path": "Composition.section.text",
+        "short": "セクションの内容を示すテキスト",
+        "definition": "セクションの内容を示すテキストです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.text.status",
+        "path": "Composition.section.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.text.div",
+        "path": "Composition.section.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.entry",
+        "path": "Composition.section.entry",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "reference"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Composition.section:Checkup.entry:Observation",
+        "path": "Composition.section.entry",
+        "sliceName": "Observation",
+        "short": "健診項⽬情報の参照",
+        "definition": "健診項⽬情報の参照です。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.entry:Observation.reference",
+        "path": "Composition.section.entry.reference",
+        "short": "健診項⽬情報の参照",
+        "definition": "健診項⽬情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.entry:Coverage",
+        "path": "Composition.section.entry",
+        "sliceName": "Coverage",
+        "short": "保険証情報と受診券情報の参照",
+        "definition": "保険証情報と受診券情報の参照です。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Checkup.entry:Coverage.reference",
+        "path": "Composition.section.entry.reference",
+        "short": "保険証情報と受診券情報の参照",
+        "definition": "保険証情報と受診券情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire",
+        "path": "Composition.section",
+        "sliceName": "Questionnaire",
+        "short": "問診セクション",
+        "definition": "問診セクションです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.title",
+        "path": "Composition.section.title",
+        "short": "セクションのタイトル",
+        "definition": "セクションのタイトルです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.code",
+        "path": "Composition.section.code",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.code.coding",
+        "path": "Composition.section.code.coding",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "short": "セクション区分コードのURI",
+        "definition": "セクション区分コードのURIです。",
+        "fixedUri": "urn:oid:1.2.392.200119.6.1002",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "short": "セクション区分コード",
+        "definition": "セクション区分コードです。",
+        "comment": "問診セクションを示す「01920」を定義する。",
+        "fixedCode": "01920",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.code.coding.display",
+        "path": "Composition.section.code.coding.display",
+        "short": "セクション区分コードの名称",
+        "definition": "セクション区分コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.text",
+        "path": "Composition.section.text",
+        "short": "セクションの内容を示すテキスト",
+        "definition": "セクションの内容を示すテキストです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.text.status",
+        "path": "Composition.section.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.text.div",
+        "path": "Composition.section.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.entry",
+        "path": "Composition.section.entry",
+        "short": "問診結果情報の参照",
+        "definition": "問診結果情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Questionnaire.entry.reference",
+        "path": "Composition.section.entry.reference",
+        "short": "問診結果情報の参照",
+        "definition": "問診結果情報の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document",
+        "path": "Composition.section",
+        "sliceName": "Document",
+        "short": "添付書類セクション",
+        "definition": "添付書類セクションです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.title",
+        "path": "Composition.section.title",
+        "short": "セクションのタイトル",
+        "definition": "セクションのタイトルです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.code",
+        "path": "Composition.section.code",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.code.coding",
+        "path": "Composition.section.code.coding",
+        "short": "セクション区分",
+        "definition": "セクション区分です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.code.coding.system",
+        "path": "Composition.section.code.coding.system",
+        "short": "セクション区分コードのURI",
+        "definition": "セクション区分コードのURIです。",
+        "fixedUri": "urn:oid:1.2.392.200119.6.1002",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.code.coding.code",
+        "path": "Composition.section.code.coding.code",
+        "short": "セクション区分コード",
+        "definition": "セクション区分コードです。",
+        "comment": "添付書類セクションを示す「01995」を定義する。",
+        "fixedCode": "01995",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.code.coding.display",
+        "path": "Composition.section.code.coding.display",
+        "short": "セクション区分コードの名称",
+        "definition": "セクション区分コードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.text",
+        "path": "Composition.section.text",
+        "short": "セクションの内容を示すテキスト",
+        "definition": "セクションの内容を示すテキストです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.text.status",
+        "path": "Composition.section.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.text.div",
+        "path": "Composition.section.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.entry",
+        "path": "Composition.section.entry",
+        "short": "添付書類の参照",
+        "definition": "添付書類の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:Document.entry.reference",
+        "path": "Composition.section.entry.reference",
+        "short": "添付書類の参照",
+        "definition": "添付書類の参照です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

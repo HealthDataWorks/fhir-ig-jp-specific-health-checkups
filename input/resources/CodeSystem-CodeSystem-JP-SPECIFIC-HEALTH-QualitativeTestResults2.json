@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "QualitativeTestResults2",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults2",
+  "title": "定性検査結果2",
+  "description": "特定健診・特定保健指導で使用されている定性検査結果です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T10:06:41.863+00:00",
+    "source": "#Xf1WE6d9aothSt3K"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-QualitativeTestResults2.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "陰性",
+      "definition": "陰性"
+    },
+    {
+      "code": "2",
+      "display": "陽性",
+      "definition": "陽性"
+    }
+  ],
+  "count": 2
+}

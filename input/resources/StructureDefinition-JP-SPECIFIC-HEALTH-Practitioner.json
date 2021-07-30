@@ -1,0 +1,212 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-Practitioner",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-06-01T10:55:51.493+00:00",
+    "source": "#ACYVKTV0Dr4ccugu"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "individual"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Practitioner.html",
+  "version": "0.8.0",
+  "name": "Practitioner",
+  "title": "健診結果報告書作成者情報",
+  "status": "draft",
+  "description": "健診結果報告書作成者情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner",
+        "path": "Practitioner",
+        "short": "健診結果報告書作成者情報",
+        "definition": "健診結果報告書作成者情報です。"
+      },
+      {
+        "id": "Practitioner.id",
+        "path": "Practitioner.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.text",
+        "path": "Practitioner.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.text.status",
+        "path": "Practitioner.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.text.div",
+        "path": "Practitioner.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name",
+        "path": "Practitioner.name",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "extention.value[x]"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "健診結果報告書作成⽒名",
+        "definition": "健診結果報告書作成⽒名です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji",
+        "path": "Practitioner.name",
+        "sliceName": "kanji",
+        "short": "健診結果報告書作成者の氏名(漢字)",
+        "definition": "健診結果報告書作成者の氏名(漢字)です。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji.extension",
+        "path": "Practitioner.name.extension",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKanji.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji.use",
+        "path": "Practitioner.name.use",
+        "short": "健診結果報告書作成者の氏名(漢字)の用途",
+        "definition": "健診結果報告書作成者の氏名(漢字)の用途です。",
+        "fixedCode": "official",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji.text",
+        "path": "Practitioner.name.text",
+        "short": "健診結果報告書作成者の氏名(漢字)",
+        "definition": "健診結果報告書作成者の氏名(漢字)です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji.family",
+        "path": "Practitioner.name.family",
+        "short": "健診結果報告書作成者の姓(漢字)",
+        "definition": "健診結果報告書作成者の姓(漢字)です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kanji.given",
+        "path": "Practitioner.name.given",
+        "short": "健診結果報告書作成者の名(漢字)",
+        "definition": "健診結果報告書作成者の名(漢字)です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana",
+        "path": "Practitioner.name",
+        "sliceName": "kana",
+        "short": "健診結果報告書作成者の氏名(カナ)",
+        "definition": "健診結果報告書作成者の氏名(カナ)です。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana.extension",
+        "path": "Practitioner.name.extension",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-ExtensionPatientNameKana.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana.use",
+        "path": "Practitioner.name.use",
+        "short": "健診結果報告書作成者の氏名(カナ)の用途",
+        "definition": "健診結果報告書作成者の氏名(カナ)の用途です。",
+        "fixedCode": "official",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana.text",
+        "path": "Practitioner.name.text",
+        "short": "健診結果報告書作成者の氏名(カナ)",
+        "definition": "健診結果報告書作成者の氏名(カナ)です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana.family",
+        "path": "Practitioner.name.family",
+        "short": "健診結果報告書作成者の姓(カナ)",
+        "definition": "健診結果報告書作成者の姓(カナ)です。",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name:kana.given",
+        "path": "Practitioner.name.given",
+        "short": "健診結果報告書作成者の名(カナ)",
+        "definition": "健診結果報告書作成者の名(カナ)です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

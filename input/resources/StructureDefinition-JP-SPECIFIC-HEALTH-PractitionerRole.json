@@ -1,0 +1,120 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-PractitionerRole",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-06-01T10:57:35.469+00:00",
+    "source": "#A1bWpIurB8ocLezo"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "individual"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-PractitionerRole.html",
+  "version": "0.8.0",
+  "name": "PractitionerRole",
+  "title": "健診結果報告書作成者",
+  "status": "draft",
+  "description": "健診結果報告書作成者の情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "PractitionerRole",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "PractitionerRole",
+        "path": "PractitionerRole",
+        "short": "健診結果報告書作成者の情報",
+        "definition": "健診結果報告書作成者の情報です。"
+      },
+      {
+        "id": "PractitionerRole.id",
+        "path": "PractitionerRole.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.text",
+        "path": "PractitionerRole.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.text.status",
+        "path": "PractitionerRole.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.text.div",
+        "path": "PractitionerRole.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.practitioner",
+        "path": "PractitionerRole.practitioner",
+        "short": "健診結果報告書作成者の参照",
+        "definition": "健診結果報告書作成者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.practitioner.reference",
+        "path": "PractitionerRole.practitioner.reference",
+        "short": "健診結果報告書作成者の参照",
+        "definition": "健診結果報告書作成者の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.organization",
+        "path": "PractitionerRole.organization",
+        "short": "健診結果報告書作成機関の参照",
+        "definition": "健診結果報告書作成機関の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.organization.reference",
+        "path": "PractitionerRole.organization.reference",
+        "short": "健診結果報告書作成機関の参照",
+        "definition": "健診結果報告書作成機関の参照です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ChewingCode",
+  "id": "ValueSet-ChewingCode.html",
+  "title": "咀嚼コード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される咀嚼コードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ChewingCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:40:50.034+00:00",
+    "source": "#KAc2ptxJpeREEHwF"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18030"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ChewingCode.html"
+      }
+    ]
+  }
+}

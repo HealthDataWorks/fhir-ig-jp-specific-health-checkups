@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MealSpeedCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode",
+  "title": "食事の速さコード",
+  "description": "特定健診・特定保健指導で使用されている食事の速さコードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-MealSpeedCode.html",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-05-10T09:10:39.286+00:00",
+    "source": "#paYIWsuaALaDd85G"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-MealSpeedCode.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "速い",
+      "definition": "速い"
+    },
+    {
+      "code": "2",
+      "display": "ふつう",
+      "definition": "ふつう"
+    },
+    {
+      "code": "3",
+      "display": "遅い",
+      "definition": "遅い"
+    }
+  ],
+  "count": 3
+}

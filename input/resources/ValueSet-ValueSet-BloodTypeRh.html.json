@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "BloodTypeRh",
+  "id": "ValueSet-BloodTypeRh.html",
+  "title": "血液型(Rh)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される血液型(Rh)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-BloodTypeRh.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T09:37:55.743+00:00",
+    "source": "#vflT7kIwakmGangv"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.2116"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-BloodTypeRh.html"
+      }
+    ]
+  }
+}

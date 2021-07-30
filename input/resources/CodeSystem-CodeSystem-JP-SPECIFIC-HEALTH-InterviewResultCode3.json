@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "InterviewResultCode3",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode3",
+  "title": "問診結果コード3",
+  "description": "特定健診・特定保健指導で使用されている問診結果コードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-InterviewResultCode3",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-11T06:20:42.566+00:00",
+    "source": "#ndlCM0scWGmv2l7P"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InterviewResultCode3.html"
+}

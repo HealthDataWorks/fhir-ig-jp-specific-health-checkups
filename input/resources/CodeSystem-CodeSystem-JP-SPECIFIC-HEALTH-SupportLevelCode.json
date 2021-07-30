@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "SupportLevelCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode",
+  "title": "支援レベルコード",
+  "description": "特定健診・特定保健指導で使用されている支援レベルコードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-SupportLevelCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:24:27.249+00:00",
+    "source": "#n8XUMixVg6AalPj6"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SupportLevelCode.html",
+  "concept": [
+    {
+      "code": "1",
+      "display": "積極的支援",
+      "definition": "積極的支援"
+    },
+    {
+      "code": "2",
+      "display": "動機づけ支援",
+      "definition": "動機づけ支援"
+    },
+    {
+      "code": "3",
+      "display": "なし(情報提供)",
+      "definition": "なし(情報提供)"
+    },
+    {
+      "code": "4",
+      "display": "判定不能",
+      "definition": "判定不能"
+    }
+  ],
+  "count": 4
+}

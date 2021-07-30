@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InsuredNumber",
+  "id": "ValueSet-InsuredNumber.html",
+  "title": "被保険者番号",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される被保険者番号が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InsuredNumber.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:37:04.325+00:00",
+    "source": "#FtcTo44B6CnCCxrI"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.205"
+    }
+  ]
+}

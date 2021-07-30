@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SerumCreatinineSubject",
+  "id": "ValueSet-SerumCreatinineSubject.html",
+  "title": "血清クレアチニン(対象者)",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SerumCreatinineSubject.html",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2021-05-10T08:52:37.840+00:00",
+    "source": "#NLPGoWhCwdpWJGlR"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.18110"
+    }
+  ]
+}

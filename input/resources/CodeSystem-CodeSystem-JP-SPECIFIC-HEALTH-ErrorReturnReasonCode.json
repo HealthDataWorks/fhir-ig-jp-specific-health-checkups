@@ -1,0 +1,65 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ErrorReturnReasonCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode",
+  "title": "厚労省付属資料7別表10(過誤返戻理由コード)",
+  "description": "特定健診・特定保健指導で使用されている厚労省付属資料7別表10(過誤返戻理由コード)です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:08:09.568+00:00",
+    "source": "#tYH97dQEMBoaT3Wa"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ErrorReturnReasonCode.html",
+  "concept": [
+    {
+      "code": "01",
+      "display": "被保険者証の記号・番号の誤り",
+      "definition": "被保険者証の記号・番号の誤り"
+    },
+    {
+      "code": "02",
+      "display": "受診券・利用券の整理番号の誤り",
+      "definition": "受診券・利用券の整理番号の誤り"
+    },
+    {
+      "code": "03",
+      "display": "受診者・利用者氏名の誤り",
+      "definition": "受診者・利用者氏名の誤り"
+    },
+    {
+      "code": "04",
+      "display": "該当者なし",
+      "definition": "該当者なし"
+    },
+    {
+      "code": "05",
+      "display": "保険者番号と記号の不一致",
+      "definition": "保険者番号と記号の不一致"
+    },
+    {
+      "code": "06",
+      "display": "資格喪失後の受診",
+      "definition": "資格喪失後の受診"
+    },
+    {
+      "code": "07",
+      "display": "重複請求",
+      "definition": "重複請求"
+    },
+    {
+      "code": "08",
+      "display": "健診・指導機関からの取下げ依頼による",
+      "definition": "健診・指導機関からの取下げ依頼による"
+    },
+    {
+      "code": "09",
+      "display": "その他",
+      "definition": "その他"
+    }
+  ],
+  "count": 9
+}

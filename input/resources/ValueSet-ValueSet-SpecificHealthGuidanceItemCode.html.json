@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "SpecificHealthGuidanceItemCode",
+  "id": "ValueSet-SpecificHealthGuidanceItemCode.html",
+  "title": "特定保健指導項目コード表",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される特定保健指導項目コード表が含まれます。\nXML保健指導コード表の項目コードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-SpecificHealthGuidanceItemCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:44:21.557+00:00",
+    "source": "#7whO1qNaZQThTJxN"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1006"
+    }
+  ]
+}

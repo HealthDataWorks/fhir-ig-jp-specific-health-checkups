@@ -1,0 +1,8 @@
+canonical: https://healthdataworks.net/hl7-fhir
+fhirVersion: 4.0.1
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+id: jp-specific-health-checkups
+name: JP_specific_health_checkups
+status: draft
+version: 0.8.0

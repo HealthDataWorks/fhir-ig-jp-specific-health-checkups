@@ -1,0 +1,26 @@
+CodeSystem: CDASectionCode
+Id: CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode
+Title: "CDA セクションコード"
+Description: "特定健診・特定保健指導で使用されているCDA セクションコードです。"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2021-05-10T09:06:22.176+00:00"
+* ^meta.source = "#12gzLmUFRWH0yc4C"
+* ^url = "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode.html"
+* ^status = #draft
+* ^valueSet = "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode.html"
+* ^content = #complete
+* #01010 "特定健診・問診結果セクション" "特定健診・問診結果セクション"
+* #01020 "広域連合保健事業セクション" "広域連合保健事業セクション"
+* #01030 "労働安全衛生法健診結果セクション" "労働安全衛生法健診結果セクション"
+* #01040 "学校保健安全法健診結果セクション" "学校保健安全法健診結果セクション"
+* #01060 "がん検診セクション" "がん検診セクション"
+* #01090 "肝炎検診セクション" "肝炎検診セクション"
+* #01990 "任意追加項目セクション" "任意追加項目セクション"
+* #90010 "指導共通情報セクション" "指導共通情報セクション"
+* #90020 "指導初回①情報セクション" "指導初回①情報セクション"
+* #90030 "指導初回情報セクション" "指導初回情報セクション"
+* #90040 "継続支援情報セクション" "継続支援情報セクション"
+* #90050 "中間評価情報セクション" "中間評価情報セクション"
+* #90060 "最終評価情報セクション(=3か月評価情報セクション)" "最終評価情報セクション(=3か月評価情報セクション)"
+* #90070 "指導集計情報セクション" "指導集計情報セクション"
+* #90080 "指導機関情報セクション" "指導機関情報セクション"

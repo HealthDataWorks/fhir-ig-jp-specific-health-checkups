@@ -1,0 +1,21 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "WillToQuitSmoking",
+  "id": "ValueSet-WillToQuitSmoking.html",
+  "title": "禁煙意志",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-WillToQuitSmoking.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T08:24:51.835+00:00",
+    "source": "#1yT4yzu7xqdpWnHH"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.3011"
+    }
+  ]
+}

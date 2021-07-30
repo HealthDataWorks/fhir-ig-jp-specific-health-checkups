@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "InsurerNumberDownload",
+  "id": "ValueSet-InsurerNumberDownload.html",
+  "title": "保険者番号(ダウンロード保険者)",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される保険者番号(ダウンロード保険者)が含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-InsurerNumberDownload.html",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-05-10T08:38:34.064+00:00",
+    "source": "#uRbOokoIOf3K20Zx"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.212"
+    }
+  ]
+}

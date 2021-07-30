@@ -1,0 +1,95 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "CDASectionCode",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode",
+  "title": "CDA セクションコード",
+  "description": "特定健診・特定保健指導で使用されているCDA セクションコードです。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-CDASectionCode.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:06:22.176+00:00",
+    "source": "#12gzLmUFRWH0yc4C"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-JP_specific_health/ValueSet-JP-SPECIFIC-HEALTH-CDASectionCode.html",
+  "concept": [
+    {
+      "code": "01010",
+      "display": "特定健診・問診結果セクション",
+      "definition": "特定健診・問診結果セクション"
+    },
+    {
+      "code": "01020",
+      "display": "広域連合保健事業セクション",
+      "definition": "広域連合保健事業セクション"
+    },
+    {
+      "code": "01030",
+      "display": "労働安全衛生法健診結果セクション",
+      "definition": "労働安全衛生法健診結果セクション"
+    },
+    {
+      "code": "01040",
+      "display": "学校保健安全法健診結果セクション",
+      "definition": "学校保健安全法健診結果セクション"
+    },
+    {
+      "code": "01060",
+      "display": "がん検診セクション",
+      "definition": "がん検診セクション"
+    },
+    {
+      "code": "01090",
+      "display": "肝炎検診セクション",
+      "definition": "肝炎検診セクション"
+    },
+    {
+      "code": "01990",
+      "display": "任意追加項目セクション",
+      "definition": "任意追加項目セクション"
+    },
+    {
+      "code": "90010",
+      "display": "指導共通情報セクション",
+      "definition": "指導共通情報セクション"
+    },
+    {
+      "code": "90020",
+      "display": "指導初回①情報セクション",
+      "definition": "指導初回①情報セクション"
+    },
+    {
+      "code": "90030",
+      "display": "指導初回情報セクション",
+      "definition": "指導初回情報セクション"
+    },
+    {
+      "code": "90040",
+      "display": "継続支援情報セクション",
+      "definition": "継続支援情報セクション"
+    },
+    {
+      "code": "90050",
+      "display": "中間評価情報セクション",
+      "definition": "中間評価情報セクション"
+    },
+    {
+      "code": "90060",
+      "display": "最終評価情報セクション(=3か月評価情報セクション)",
+      "definition": "最終評価情報セクション(=3か月評価情報セクション)"
+    },
+    {
+      "code": "90070",
+      "display": "指導集計情報セクション",
+      "definition": "指導集計情報セクション"
+    },
+    {
+      "code": "90080",
+      "display": "指導機関情報セクション",
+      "definition": "指導機関情報セクション"
+    }
+  ],
+  "count": 15
+}

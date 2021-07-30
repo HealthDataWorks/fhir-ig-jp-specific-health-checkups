@@ -1,0 +1,224 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-DocumentReference",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-06-01T10:50:27.019+00:00",
+    "source": "#fV2aptGA10q8cV7F"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Foundation.Documents"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "not-classified"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-DocumentReference.html",
+  "version": "0.8.0",
+  "name": "DocumentReference",
+  "title": "添付文書情報",
+  "status": "draft",
+  "description": "添付文書情報です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "fhircomposition",
+      "uri": "http://hl7.org/fhir/composition",
+      "name": "FHIR Composition"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "xds",
+      "uri": "http://ihe.net/xds",
+      "name": "XDS metadata equivalent"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "DocumentReference",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DocumentReference",
+        "path": "DocumentReference",
+        "short": "添付文書情報",
+        "definition": "添付文書情報です。",
+        "mustSupport": false
+      },
+      {
+        "id": "DocumentReference.id",
+        "path": "DocumentReference.id",
+        "short": "このリソースのID",
+        "definition": "このリソースのIDです。",
+        "comment": "リソースIDは自動採番されます。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.text",
+        "path": "DocumentReference.text",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.text.status",
+        "path": "DocumentReference.text.status",
+        "definition": "このリソースの概要がリソースのコンテンツから⽣成されたことを⽰す。",
+        "fixedCode": "generated",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.text.div",
+        "path": "DocumentReference.text.div",
+        "short": "このリソースの概要",
+        "definition": "このリソースの概要です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.status",
+        "path": "DocumentReference.status",
+        "short": "このリソースの状態",
+        "definition": "このリソースの状態です。",
+        "fixedCode": "current",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.description",
+        "path": "DocumentReference.description",
+        "short": "添付文章の説明",
+        "definition": "添付文章の説明です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content",
+        "path": "DocumentReference.content",
+        "short": "添付文書データ",
+        "definition": "添付文書データです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment",
+        "path": "DocumentReference.content.attachment",
+        "short": "添付文章",
+        "definition": "添付文章です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.contentType",
+        "path": "DocumentReference.content.attachment.contentType",
+        "short": "添付ファイルのMimeType",
+        "definition": "添付ファイルのMimeTypeです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.data",
+        "path": "DocumentReference.content.attachment.data",
+        "short": "添付ファイルデータ(Base64符号化データ)",
+        "definition": "添付ファイルデータ(Base64符号化データ)です。",
+        "comment": "データをリソースに内包する場合に定義する。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.url",
+        "path": "DocumentReference.content.attachment.url",
+        "short": "添付ファイルデータ(外部参照URL)",
+        "definition": "添付ファイルデータ(外部参照URL)です。",
+        "comment": "データを外部参照する場合に定義する。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.hash",
+        "path": "DocumentReference.content.attachment.hash",
+        "short": "添付ファイルのハッシュ値",
+        "definition": "添付ファイルのハッシュ値です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.title",
+        "path": "DocumentReference.content.attachment.title",
+        "short": "添付ファイルを説明するタイトル",
+        "definition": "添付ファイルを説明するタイトルです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.format",
+        "path": "DocumentReference.content.format",
+        "short": "添付ファイルのフォーマット",
+        "definition": "添付ファイルのフォーマットです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.format.system",
+        "path": "DocumentReference.content.format.system",
+        "short": "添付ファイルのフォーマットのURI",
+        "definition": "添付ファイルのフォーマットのURIです。",
+        "fixedUri": "http://jpfhir.jp/eCheckup/CodeSystem/attachementFormat",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.format.code",
+        "path": "DocumentReference.content.format.code",
+        "short": "添付ファイルのフォーマットコード",
+        "definition": "添付ファイルのフォーマットコードです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.format.display",
+        "path": "DocumentReference.content.format.display",
+        "short": "添付ファイルのフォーマットコードの名称",
+        "definition": "添付ファイルのフォーマットコードの名称です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.context",
+        "path": "DocumentReference.context",
+        "short": "添付⽂書に関連するデータ",
+        "definition": "添付⽂書に関連するデータです。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.context.related",
+        "path": "DocumentReference.context.related",
+        "short": "添付⽂書に関連する検査結果の参照",
+        "definition": "添付⽂書に関連する検査結果の参照です。",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.context.related.reference",
+        "path": "DocumentReference.context.related.reference",
+        "short": "添付⽂書に関連する検査結果の参照",
+        "definition": "添付⽂書に関連する検査結果の参照です。",
+        "mustSupport": true
+      }
+    ]
+  }
+}

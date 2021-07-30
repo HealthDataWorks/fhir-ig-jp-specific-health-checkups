@@ -1,0 +1,554 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "JP-SPECIFIC-HEALTH-CHECKUP-Bundle",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-06-02T04:43:08.539+00:00",
+    "source": "#aU2TTEU65slyEkAA"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Foundation.Other"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "not-classified"
+    }
+  ],
+  "url": "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-CHECKUP-Bundle.html",
+  "version": "0.8.0",
+  "name": "Bundle",
+  "title": "健診結果報告書",
+  "status": "draft",
+  "description": "健診結果報告書です。",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Bundle",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Bundle",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Bundle",
+        "path": "Bundle",
+        "short": "健診結果報告書",
+        "definition": "健診結果報告書です。"
+      },
+      {
+        "id": "Bundle.meta",
+        "path": "Bundle.meta",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.meta.profile",
+        "path": "Bundle.meta.profile",
+        "short": "健診結果報告書のプロファイルを識別するURL",
+        "definition": "健診結果報告書のプロファイルを識別するURLです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.type",
+        "path": "Bundle.type",
+        "short": "ドキュメント型",
+        "definition": "本文書はドキュメント型です。",
+        "fixedCode": "document",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.timestamp",
+        "path": "Bundle.timestamp",
+        "short": "健診結果報告書を⽣成した⽇時",
+        "definition": "健診結果報告書を⽣成した⽇時です。",
+        "comment": "「YYYY-MM-DDThh:mm:ss.sss+zz:zz」のパターンで定義する。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry",
+        "path": "Bundle.entry",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "fullUrl"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "リソースエントリー",
+        "definition": "リソースエントリーです。"
+      },
+      {
+        "id": "Bundle.entry:Composition",
+        "path": "Bundle.entry",
+        "sliceName": "Composition",
+        "short": "⽂書構成情報のエントリー",
+        "definition": "⽂書構成情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Composition.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "⽂書構成情報のUUID",
+        "definition": "⽂書構成情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Composition.resource",
+        "path": "Bundle.entry.resource",
+        "short": "⽂書構成情報",
+        "definition": "⽂書構成情報です。",
+        "type": [
+          {
+            "code": "Composition",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-CHECKUP-Composition.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Patient",
+        "path": "Bundle.entry",
+        "sliceName": "Patient",
+        "short": "受診者情報のエントリー",
+        "definition": "受診者情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Patient.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "受診者情報のUUID",
+        "definition": "受診者情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Patient.resource",
+        "path": "Bundle.entry.resource",
+        "short": "受診者情報",
+        "definition": "受診者情報です。",
+        "type": [
+          {
+            "code": "Patient",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Patient.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:PractitionerRole",
+        "path": "Bundle.entry",
+        "sliceName": "PractitionerRole",
+        "short": "健診結果作成者役割情報のエントリー",
+        "definition": "健診結果作成者役割情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:PractitionerRole.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診結果作成者役割情報のUUID",
+        "definition": "健診結果作成者役割情報のUUID",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:PractitionerRole.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診結果作成者役割情報",
+        "definition": "健診結果作成者役割情報です。",
+        "type": [
+          {
+            "code": "PractitionerRole",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-PractitionerRole.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Organization",
+        "path": "Bundle.entry",
+        "sliceName": "Organization",
+        "short": "健診結果作成組織情報のエントリー",
+        "definition": "健診結果作成組織情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Organization.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診結果作成組織情報のUUID",
+        "definition": "健診結果作成組織情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Organization.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診結果作成組織情報",
+        "definition": "健診結果作成組織情報です。",
+        "type": [
+          {
+            "code": "Organization",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Organization.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Practitioner",
+        "path": "Bundle.entry",
+        "sliceName": "Practitioner",
+        "short": "健診結果作成者情報のエントリー",
+        "definition": "健診結果作成者情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Practitioner.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診結果作成者情報のUUID",
+        "definition": "健診結果作成者情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Practitioner.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診結果作成者情報",
+        "definition": "健診結果作成者情報です。",
+        "type": [
+          {
+            "code": "Practitioner",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Practitioner.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Encounter",
+        "path": "Bundle.entry",
+        "sliceName": "Encounter",
+        "short": "健診実施情報のエントリー",
+        "definition": "健診実施情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Encounter.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診実施情報のUUID",
+        "definition": "健診実施情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Encounter.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診実施情報",
+        "definition": "健診実施情報です。",
+        "type": [
+          {
+            "code": "Encounter",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Encounter.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage1",
+        "path": "Bundle.entry",
+        "sliceName": "Coverage1",
+        "short": "受診券情報のエントリー",
+        "definition": "受診券情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage1.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "受診券情報のUUID",
+        "definition": "受診券情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage1.resource",
+        "path": "Bundle.entry.resource",
+        "short": "受診券情報",
+        "definition": "受診券情報です。",
+        "type": [
+          {
+            "code": "Coverage",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Coverage.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage2",
+        "path": "Bundle.entry",
+        "sliceName": "Coverage2",
+        "short": "保険情報のエントリー",
+        "definition": "保険情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage2.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "保険情報のUUID",
+        "definition": "保険情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Coverage2.resource",
+        "path": "Bundle.entry.resource",
+        "short": "保険情報",
+        "definition": "保険情報です。",
+        "type": [
+          {
+            "code": "Coverage",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-rezept-medication/StructureDefinition-JP-REZEPT-Coverage.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Observation",
+        "path": "Bundle.entry",
+        "sliceName": "Observation",
+        "short": "健診項⽬情報のエントリー",
+        "definition": "健診項⽬情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Observation.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診項⽬情報のUUID",
+        "definition": "健診項⽬情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Observation.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診項⽬情報",
+        "definition": "健診項⽬情報です。",
+        "type": [
+          {
+            "code": "Observation",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Observation.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:QuestionnaireResponse",
+        "path": "Bundle.entry",
+        "sliceName": "QuestionnaireResponse",
+        "short": "問診結果情報のエントリー",
+        "definition": "問診結果情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:QuestionnaireResponse.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "問診結果情報のUUID",
+        "definition": "問診結果情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:QuestionnaireResponse.resource",
+        "path": "Bundle.entry.resource",
+        "short": "問診結果情報",
+        "definition": "問診結果情報です。",
+        "type": [
+          {
+            "code": "QuestionnaireResponse",
+            "profile": [
+              "https://igs.healthdataworks.net/jp-specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-QuestionnaireResponse.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Specimen",
+        "path": "Bundle.entry",
+        "sliceName": "Specimen",
+        "short": "検体情報のエントリー",
+        "definition": "検体情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Specimen.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "検体情報のUUID",
+        "definition": "検体情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Specimen.resource",
+        "path": "Bundle.entry.resource",
+        "short": "検体情報",
+        "definition": "検体情報です。",
+        "type": [
+          {
+            "code": "Specimen",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Specimen.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DiagnosticReport",
+        "path": "Bundle.entry",
+        "sliceName": "DiagnosticReport",
+        "short": "健診結果画像情報のエントリー",
+        "definition": "健診結果画像情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DiagnosticReport.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診結果画像情報のUUID",
+        "definition": "健診結果画像情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DiagnosticReport.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診結果画像情報",
+        "definition": "健診結果画像情報です。",
+        "type": [
+          {
+            "code": "DiagnosticReport",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-DiagnosticReport.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Media",
+        "path": "Bundle.entry",
+        "sliceName": "Media",
+        "short": "健診結果画像情報のエントリー",
+        "definition": "健診結果画像情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Media.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "健診結果画像情報のUUID",
+        "definition": "健診結果画像情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:Media.resource",
+        "path": "Bundle.entry.resource",
+        "short": "健診結果画像情報",
+        "definition": "健診結果画像情報です。",
+        "type": [
+          {
+            "code": "Media",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-Media.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DocumentReference",
+        "path": "Bundle.entry",
+        "sliceName": "DocumentReference",
+        "short": "添付⽂書情報のエントリー",
+        "definition": "添付⽂書情報のエントリーです。",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DocumentReference.fullUrl",
+        "path": "Bundle.entry.fullUrl",
+        "short": "添付⽂書情報のUUID",
+        "definition": "添付⽂書情報のUUIDです。",
+        "mustSupport": true
+      },
+      {
+        "id": "Bundle.entry:DocumentReference.resource",
+        "path": "Bundle.entry.resource",
+        "short": "添付⽂書情報",
+        "definition": "添付⽂書情報です。",
+        "type": [
+          {
+            "code": "DocumentReference",
+            "profile": [
+              "https://igs.healthdataworks.net/specific-health-checkups/StructureDefinition-JP-SPECIFIC-HEALTH-DocumentReference.html"
+            ]
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

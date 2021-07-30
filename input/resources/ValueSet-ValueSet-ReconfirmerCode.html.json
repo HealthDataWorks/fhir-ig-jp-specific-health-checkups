@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "ReconfirmerCode",
+  "id": "ValueSet-ReconfirmerCode.html",
+  "title": "再確認者コード",
+  "description": "このバリューセットには、特定健診・特定保健指導で定義される再確認者コードが含まれます。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReconfirmerCode.html",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2021-05-10T10:02:48.362+00:00",
+    "source": "#YCA8BzXxQNVMv6iH"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:1.2.392.200119.6.1301"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ReconfirmerCode.html"
+      }
+    ]
+  }
+}

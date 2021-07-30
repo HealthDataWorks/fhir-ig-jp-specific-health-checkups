@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "ReportCategory",
+  "id": "CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory",
+  "title": "報告区分",
+  "description": "特定健診・特定保健指導で使用されている報告区分です。",
+  "version": "0.8.0",
+  "url": "https://igs.healthdataworks.net/jp-specific-health-checkups/CodeSystem-CodeSystem-JP-SPECIFIC-HEALTH-ReportCategory.html",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-05-10T09:05:34.078+00:00",
+    "source": "#PBvtU3Xbka4HDwoz"
+  },
+  "valueSet": "https://igs.healthdataworks.net/jp-specific-health-checkups/ValueSet-ValueSet-JP-SPECIFIC-HEALTH-ReportCategory.html",
+  "concept": [
+    {
+      "code": "10",
+      "display": "特定健診情報",
+      "definition": "特定健診情報"
+    },
+    {
+      "code": "19",
+      "display": "提出済み健診情報(閲覧用ファイル)の削除依頼",
+      "definition": "提出済み健診情報(閲覧用ファイル)の削除依頼"
+    },
+    {
+      "code": "21",
+      "display": "特定保健指導情報(開始時、別表11のコード 1 に相当)",
+      "definition": "特定保健指導情報(開始時、別表11のコード 1 に相当)"
+    },
+    {
+      "code": "22",
+      "display": "特定保健指導情報(実績評価時＝集合契約の場合の最終決済時、別表11のコード 2 に相当)",
+      "definition": "特定保健指導情報(実績評価時＝集合契約の場合の最終決済時、別表11のコード 2 に相当)"
+    },
+    {
+      "code": "23",
+      "display": "特定保健指導情報(途中終了時＝利用停止等、別表11のコード 3 に相当)",
+      "definition": "特定保健指導情報(途中終了時＝利用停止等、別表11のコード 3 に相当)"
+    },
+    {
+      "code": "24",
+      "display": "特定保健指導情報(その他＝別表11のコード 4 に相当)",
+      "definition": "特定保健指導情報(その他＝別表11のコード 4 に相当)"
+    },
+    {
+      "code": "25",
+      "display": "特定保健指導情報(初回未完了＝別表11のコード 5 に相当)",
+      "definition": "特定保健指導情報(初回未完了＝別表11のコード 5 に相当)"
+    },
+    {
+      "code": "30",
+      "display": "国への実施結果報告",
+      "definition": "国への実施結果報告"
+    },
+    {
+      "code": "40",
+      "display": "特定健診以外の健診結果を送付",
+      "definition": "特定健診以外の健診結果を送付"
+    },
+    {
+      "code": "90",
+      "display": "そのほか",
+      "definition": "そのほか"
+    }
+  ],
+  "count": 10
+}
